@@ -1,0 +1,15 @@
+/home/ivan/Documents/PAS/zadatak1/install/fanuc_resources/share/fanuc_resources//urdf/common_colours.xacro
+/home/ivan/Documents/PAS/zadatak1/install/fanuc_resources/share/fanuc_resources//urdf/common_materials.xacro
+/home/ivan/Documents/PAS/zadatak1/install/fanuc_resources/share/ament_index/resource_index/package_run_dependencies/fanuc_resources
+/home/ivan/Documents/PAS/zadatak1/install/fanuc_resources/share/ament_index/resource_index/parent_prefix_path/fanuc_resources
+/home/ivan/Documents/PAS/zadatak1/install/fanuc_resources/share/fanuc_resources/environment/ament_prefix_path.dsv
+/home/ivan/Documents/PAS/zadatak1/install/fanuc_resources/share/fanuc_resources/environment/path.dsv
+/home/ivan/Documents/PAS/zadatak1/install/fanuc_resources/share/fanuc_resources/local_setup.bash
+/home/ivan/Documents/PAS/zadatak1/install/fanuc_resources/share/fanuc_resources/local_setup.sh
+/home/ivan/Documents/PAS/zadatak1/install/fanuc_resources/share/fanuc_resources/local_setup.zsh
+/home/ivan/Documents/PAS/zadatak1/install/fanuc_resources/share/fanuc_resources/local_setup.dsv
+/home/ivan/Documents/PAS/zadatak1/install/fanuc_resources/share/fanuc_resources/package.dsv
+/home/ivan/Documents/PAS/zadatak1/install/fanuc_resources/share/ament_index/resource_index/packages/fanuc_resources
+/home/ivan/Documents/PAS/zadatak1/install/fanuc_resources/share/fanuc_resources/cmake/fanuc_resourcesConfig.cmake
+/home/ivan/Documents/PAS/zadatak1/install/fanuc_resources/share/fanuc_resources/cmake/fanuc_resourcesConfig-version.cmake
+/home/ivan/Documents/PAS/zadatak1/install/fanuc_resources/share/fanuc_resources/package.xml

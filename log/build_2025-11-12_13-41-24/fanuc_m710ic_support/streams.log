@@ -1,0 +1,48 @@
+[0.011s] Invoking command in '/home/ivan/Documents/PAS/zadatak1/build/fanuc_m710ic_support': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ivan/Documents/PAS/zadatak1/build/fanuc_m710ic_support -- -j16 -l16
+[0.043s] Invoked command in '/home/ivan/Documents/PAS/zadatak1/build/fanuc_m710ic_support' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ivan/Documents/PAS/zadatak1/build/fanuc_m710ic_support -- -j16 -l16
+[0.049s] Invoking command in '/home/ivan/Documents/PAS/zadatak1/build/fanuc_m710ic_support': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ivan/Documents/PAS/zadatak1/build/fanuc_m710ic_support
+[0.055s] -- Install configuration: ""
+[0.055s] -- Up-to-date: /home/ivan/Documents/PAS/zadatak1/install/fanuc_m710ic_support/share/fanuc_m710ic_support//urdf
+[0.055s] -- Up-to-date: /home/ivan/Documents/PAS/zadatak1/install/fanuc_m710ic_support/share/fanuc_m710ic_support//urdf/m710ic45m_macro.xacro
+[0.055s] -- Up-to-date: /home/ivan/Documents/PAS/zadatak1/install/fanuc_m710ic_support/share/fanuc_m710ic_support//urdf/m710ic50_macro.xacro
+[0.055s] -- Up-to-date: /home/ivan/Documents/PAS/zadatak1/install/fanuc_m710ic_support/share/fanuc_m710ic_support//urdf/m710ic50.xacro
+[0.055s] -- Up-to-date: /home/ivan/Documents/PAS/zadatak1/install/fanuc_m710ic_support/share/fanuc_m710ic_support//urdf/m710ic45m.xacro
+[0.055s] -- Up-to-date: /home/ivan/Documents/PAS/zadatak1/install/fanuc_m710ic_support/share/fanuc_m710ic_support//meshes
+[0.055s] -- Up-to-date: /home/ivan/Documents/PAS/zadatak1/install/fanuc_m710ic_support/share/fanuc_m710ic_support//meshes/m710ic45m
+[0.056s] -- Up-to-date: /home/ivan/Documents/PAS/zadatak1/install/fanuc_m710ic_support/share/fanuc_m710ic_support//meshes/m710ic45m/collision
+[0.056s] -- Up-to-date: /home/ivan/Documents/PAS/zadatak1/install/fanuc_m710ic_support/share/fanuc_m710ic_support//meshes/m710ic45m/collision/link_4.stl
+[0.056s] -- Up-to-date: /home/ivan/Documents/PAS/zadatak1/install/fanuc_m710ic_support/share/fanuc_m710ic_support//meshes/m710ic45m/collision/link_2.stl
+[0.056s] -- Up-to-date: /home/ivan/Documents/PAS/zadatak1/install/fanuc_m710ic_support/share/fanuc_m710ic_support//meshes/m710ic45m/visual
+[0.056s] -- Up-to-date: /home/ivan/Documents/PAS/zadatak1/install/fanuc_m710ic_support/share/fanuc_m710ic_support//meshes/m710ic45m/visual/link_4.stl
+[0.056s] -- Up-to-date: /home/ivan/Documents/PAS/zadatak1/install/fanuc_m710ic_support/share/fanuc_m710ic_support//meshes/m710ic45m/visual/link_2.stl
+[0.056s] -- Up-to-date: /home/ivan/Documents/PAS/zadatak1/install/fanuc_m710ic_support/share/fanuc_m710ic_support//meshes/m710ic50
+[0.056s] -- Up-to-date: /home/ivan/Documents/PAS/zadatak1/install/fanuc_m710ic_support/share/fanuc_m710ic_support//meshes/m710ic50/collision
+[0.057s] -- Up-to-date: /home/ivan/Documents/PAS/zadatak1/install/fanuc_m710ic_support/share/fanuc_m710ic_support//meshes/m710ic50/collision/link_5.stl
+[0.057s] -- Up-to-date: /home/ivan/Documents/PAS/zadatak1/install/fanuc_m710ic_support/share/fanuc_m710ic_support//meshes/m710ic50/collision/base_link.stl
+[0.057s] -- Up-to-date: /home/ivan/Documents/PAS/zadatak1/install/fanuc_m710ic_support/share/fanuc_m710ic_support//meshes/m710ic50/collision/link_6.stl
+[0.057s] -- Up-to-date: /home/ivan/Documents/PAS/zadatak1/install/fanuc_m710ic_support/share/fanuc_m710ic_support//meshes/m710ic50/collision/link_1.stl
+[0.057s] -- Up-to-date: /home/ivan/Documents/PAS/zadatak1/install/fanuc_m710ic_support/share/fanuc_m710ic_support//meshes/m710ic50/collision/link_4.stl
+[0.057s] -- Up-to-date: /home/ivan/Documents/PAS/zadatak1/install/fanuc_m710ic_support/share/fanuc_m710ic_support//meshes/m710ic50/collision/link_3.stl
+[0.057s] -- Up-to-date: /home/ivan/Documents/PAS/zadatak1/install/fanuc_m710ic_support/share/fanuc_m710ic_support//meshes/m710ic50/collision/link_2.stl
+[0.057s] -- Up-to-date: /home/ivan/Documents/PAS/zadatak1/install/fanuc_m710ic_support/share/fanuc_m710ic_support//meshes/m710ic50/visual
+[0.057s] -- Up-to-date: /home/ivan/Documents/PAS/zadatak1/install/fanuc_m710ic_support/share/fanuc_m710ic_support//meshes/m710ic50/visual/link_5.stl
+[0.058s] -- Up-to-date: /home/ivan/Documents/PAS/zadatak1/install/fanuc_m710ic_support/share/fanuc_m710ic_support//meshes/m710ic50/visual/base_link.stl
+[0.059s] -- Up-to-date: /home/ivan/Documents/PAS/zadatak1/install/fanuc_m710ic_support/share/fanuc_m710ic_support//meshes/m710ic50/visual/link_6.stl
+[0.059s] -- Up-to-date: /home/ivan/Documents/PAS/zadatak1/install/fanuc_m710ic_support/share/fanuc_m710ic_support//meshes/m710ic50/visual/link_1.stl
+[0.059s] -- Up-to-date: /home/ivan/Documents/PAS/zadatak1/install/fanuc_m710ic_support/share/fanuc_m710ic_support//meshes/m710ic50/visual/link_4.stl
+[0.059s] -- Up-to-date: /home/ivan/Documents/PAS/zadatak1/install/fanuc_m710ic_support/share/fanuc_m710ic_support//meshes/m710ic50/visual/link_3.stl
+[0.059s] -- Up-to-date: /home/ivan/Documents/PAS/zadatak1/install/fanuc_m710ic_support/share/fanuc_m710ic_support//meshes/m710ic50/visual/link_2.stl
+[0.060s] -- Up-to-date: /home/ivan/Documents/PAS/zadatak1/install/fanuc_m710ic_support/share/ament_index/resource_index/package_run_dependencies/fanuc_m710ic_support
+[0.060s] -- Up-to-date: /home/ivan/Documents/PAS/zadatak1/install/fanuc_m710ic_support/share/ament_index/resource_index/parent_prefix_path/fanuc_m710ic_support
+[0.060s] -- Up-to-date: /home/ivan/Documents/PAS/zadatak1/install/fanuc_m710ic_support/share/fanuc_m710ic_support/environment/ament_prefix_path.dsv
+[0.060s] -- Up-to-date: /home/ivan/Documents/PAS/zadatak1/install/fanuc_m710ic_support/share/fanuc_m710ic_support/environment/path.dsv
+[0.060s] -- Up-to-date: /home/ivan/Documents/PAS/zadatak1/install/fanuc_m710ic_support/share/fanuc_m710ic_support/local_setup.bash
+[0.060s] -- Up-to-date: /home/ivan/Documents/PAS/zadatak1/install/fanuc_m710ic_support/share/fanuc_m710ic_support/local_setup.sh
+[0.061s] -- Up-to-date: /home/ivan/Documents/PAS/zadatak1/install/fanuc_m710ic_support/share/fanuc_m710ic_support/local_setup.zsh
+[0.061s] -- Up-to-date: /home/ivan/Documents/PAS/zadatak1/install/fanuc_m710ic_support/share/fanuc_m710ic_support/local_setup.dsv
+[0.061s] -- Installing: /home/ivan/Documents/PAS/zadatak1/install/fanuc_m710ic_support/share/fanuc_m710ic_support/package.dsv
+[0.061s] -- Up-to-date: /home/ivan/Documents/PAS/zadatak1/install/fanuc_m710ic_support/share/ament_index/resource_index/packages/fanuc_m710ic_support
+[0.061s] -- Up-to-date: /home/ivan/Documents/PAS/zadatak1/install/fanuc_m710ic_support/share/fanuc_m710ic_support/cmake/fanuc_m710ic_supportConfig.cmake
+[0.061s] -- Up-to-date: /home/ivan/Documents/PAS/zadatak1/install/fanuc_m710ic_support/share/fanuc_m710ic_support/cmake/fanuc_m710ic_supportConfig-version.cmake
+[0.061s] -- Up-to-date: /home/ivan/Documents/PAS/zadatak1/install/fanuc_m710ic_support/share/fanuc_m710ic_support/package.xml
+[0.061s] Invoked command in '/home/ivan/Documents/PAS/zadatak1/build/fanuc_m710ic_support' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ivan/Documents/PAS/zadatak1/build/fanuc_m710ic_support

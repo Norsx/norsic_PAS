@@ -1,0 +1,22 @@
+[0.018s] Invoking command in '/home/ivan/Documents/PAS/zadatak1/build/robot_visualize': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ivan/Documents/PAS/zadatak1/build/robot_visualize -- -j16 -l16
+[0.198s] Invoked command in '/home/ivan/Documents/PAS/zadatak1/build/robot_visualize' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ivan/Documents/PAS/zadatak1/build/robot_visualize -- -j16 -l16
+[0.203s] Invoking command in '/home/ivan/Documents/PAS/zadatak1/build/robot_visualize': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ivan/Documents/PAS/zadatak1/build/robot_visualize
+[0.212s] -- Install configuration: ""
+[0.212s] -- Up-to-date: /home/ivan/Documents/PAS/zadatak1/install/robot_visualize/share/robot_visualize/launch
+[0.212s] -- Up-to-date: /home/ivan/Documents/PAS/zadatak1/install/robot_visualize/share/robot_visualize/launch/display.launch.py
+[0.212s] -- Up-to-date: /home/ivan/Documents/PAS/zadatak1/install/robot_visualize/share/robot_visualize/rviz
+[0.212s] -- Up-to-date: /home/ivan/Documents/PAS/zadatak1/install/robot_visualize/share/robot_visualize/rviz/config.rviz
+[0.212s] -- Up-to-date: /home/ivan/Documents/PAS/zadatak1/install/robot_visualize/share/ament_index/resource_index/package_run_dependencies/robot_visualize
+[0.212s] -- Up-to-date: /home/ivan/Documents/PAS/zadatak1/install/robot_visualize/share/ament_index/resource_index/parent_prefix_path/robot_visualize
+[0.212s] -- Up-to-date: /home/ivan/Documents/PAS/zadatak1/install/robot_visualize/share/robot_visualize/environment/ament_prefix_path.dsv
+[0.212s] -- Up-to-date: /home/ivan/Documents/PAS/zadatak1/install/robot_visualize/share/robot_visualize/environment/path.dsv
+[0.212s] -- Up-to-date: /home/ivan/Documents/PAS/zadatak1/install/robot_visualize/share/robot_visualize/local_setup.bash
+[0.212s] -- Up-to-date: /home/ivan/Documents/PAS/zadatak1/install/robot_visualize/share/robot_visualize/local_setup.sh
+[0.212s] -- Up-to-date: /home/ivan/Documents/PAS/zadatak1/install/robot_visualize/share/robot_visualize/local_setup.zsh
+[0.212s] -- Up-to-date: /home/ivan/Documents/PAS/zadatak1/install/robot_visualize/share/robot_visualize/local_setup.dsv
+[0.212s] -- Up-to-date: /home/ivan/Documents/PAS/zadatak1/install/robot_visualize/share/robot_visualize/package.dsv
+[0.212s] -- Up-to-date: /home/ivan/Documents/PAS/zadatak1/install/robot_visualize/share/ament_index/resource_index/packages/robot_visualize
+[0.212s] -- Up-to-date: /home/ivan/Documents/PAS/zadatak1/install/robot_visualize/share/robot_visualize/cmake/robot_visualizeConfig.cmake
+[0.212s] -- Up-to-date: /home/ivan/Documents/PAS/zadatak1/install/robot_visualize/share/robot_visualize/cmake/robot_visualizeConfig-version.cmake
+[0.212s] -- Up-to-date: /home/ivan/Documents/PAS/zadatak1/install/robot_visualize/share/robot_visualize/package.xml
+[0.242s] Invoked command in '/home/ivan/Documents/PAS/zadatak1/build/robot_visualize' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ivan/Documents/PAS/zadatak1/build/robot_visualize

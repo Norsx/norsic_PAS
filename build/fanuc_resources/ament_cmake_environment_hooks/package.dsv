@@ -1,0 +1,4 @@
+source;share/fanuc_resources/local_setup.bash
+source;share/fanuc_resources/local_setup.dsv
+source;share/fanuc_resources/local_setup.sh
+source;share/fanuc_resources/local_setup.zsh

@@ -1,0 +1,9 @@
+/home/ivan/Documents/PAS/zadatak1/build/fanuc_m710ic_support/CMakeFiles/uninstall.dir
+/home/ivan/Documents/PAS/zadatak1/build/fanuc_m710ic_support/CMakeFiles/fanuc_m710ic_support_uninstall.dir
+/home/ivan/Documents/PAS/zadatak1/build/fanuc_m710ic_support/CMakeFiles/test.dir
+/home/ivan/Documents/PAS/zadatak1/build/fanuc_m710ic_support/CMakeFiles/edit_cache.dir
+/home/ivan/Documents/PAS/zadatak1/build/fanuc_m710ic_support/CMakeFiles/rebuild_cache.dir
+/home/ivan/Documents/PAS/zadatak1/build/fanuc_m710ic_support/CMakeFiles/list_install_components.dir
+/home/ivan/Documents/PAS/zadatak1/build/fanuc_m710ic_support/CMakeFiles/install.dir
+/home/ivan/Documents/PAS/zadatak1/build/fanuc_m710ic_support/CMakeFiles/install/local.dir
+/home/ivan/Documents/PAS/zadatak1/build/fanuc_m710ic_support/CMakeFiles/install/strip.dir
