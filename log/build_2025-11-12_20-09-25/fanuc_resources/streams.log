@@ -1,0 +1,21 @@
+[0.007s] Invoking command in '/home/ivan/Documents/PAS/zadatak1/build/fanuc_resources': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ivan/Documents/PAS/zadatak1/build/fanuc_resources -- -j16 -l16
+[0.054s] Invoked command in '/home/ivan/Documents/PAS/zadatak1/build/fanuc_resources' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ivan/Documents/PAS/zadatak1/build/fanuc_resources -- -j16 -l16
+[0.060s] Invoking command in '/home/ivan/Documents/PAS/zadatak1/build/fanuc_resources': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ivan/Documents/PAS/zadatak1/build/fanuc_resources
+[0.077s] -- Install configuration: ""
+[0.077s] -- Up-to-date: /home/ivan/Documents/PAS/zadatak1/install/fanuc_resources/share/fanuc_resources//urdf
+[0.077s] -- Up-to-date: /home/ivan/Documents/PAS/zadatak1/install/fanuc_resources/share/fanuc_resources//urdf/common_colours.xacro
+[0.077s] -- Up-to-date: /home/ivan/Documents/PAS/zadatak1/install/fanuc_resources/share/fanuc_resources//urdf/common_materials.xacro
+[0.077s] -- Up-to-date: /home/ivan/Documents/PAS/zadatak1/install/fanuc_resources/share/ament_index/resource_index/package_run_dependencies/fanuc_resources
+[0.077s] -- Up-to-date: /home/ivan/Documents/PAS/zadatak1/install/fanuc_resources/share/ament_index/resource_index/parent_prefix_path/fanuc_resources
+[0.077s] -- Up-to-date: /home/ivan/Documents/PAS/zadatak1/install/fanuc_resources/share/fanuc_resources/environment/ament_prefix_path.dsv
+[0.077s] -- Up-to-date: /home/ivan/Documents/PAS/zadatak1/install/fanuc_resources/share/fanuc_resources/environment/path.dsv
+[0.077s] -- Up-to-date: /home/ivan/Documents/PAS/zadatak1/install/fanuc_resources/share/fanuc_resources/local_setup.bash
+[0.077s] -- Up-to-date: /home/ivan/Documents/PAS/zadatak1/install/fanuc_resources/share/fanuc_resources/local_setup.sh
+[0.077s] -- Up-to-date: /home/ivan/Documents/PAS/zadatak1/install/fanuc_resources/share/fanuc_resources/local_setup.zsh
+[0.077s] -- Up-to-date: /home/ivan/Documents/PAS/zadatak1/install/fanuc_resources/share/fanuc_resources/local_setup.dsv
+[0.077s] -- Installing: /home/ivan/Documents/PAS/zadatak1/install/fanuc_resources/share/fanuc_resources/package.dsv
+[0.077s] -- Up-to-date: /home/ivan/Documents/PAS/zadatak1/install/fanuc_resources/share/ament_index/resource_index/packages/fanuc_resources
+[0.077s] -- Up-to-date: /home/ivan/Documents/PAS/zadatak1/install/fanuc_resources/share/fanuc_resources/cmake/fanuc_resourcesConfig.cmake
+[0.077s] -- Up-to-date: /home/ivan/Documents/PAS/zadatak1/install/fanuc_resources/share/fanuc_resources/cmake/fanuc_resourcesConfig-version.cmake
+[0.077s] -- Up-to-date: /home/ivan/Documents/PAS/zadatak1/install/fanuc_resources/share/fanuc_resources/package.xml
+[0.083s] Invoked command in '/home/ivan/Documents/PAS/zadatak1/build/fanuc_resources' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ivan/Documents/PAS/zadatak1/build/fanuc_resources

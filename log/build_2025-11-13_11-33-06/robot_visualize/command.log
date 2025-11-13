@@ -1,0 +1,4 @@
+Invoking command in '/home/ivan/Documents/PAS/zadatak1/build/robot_visualize': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ivan/Documents/PAS/zadatak1/build/robot_visualize -- -j16 -l16
+Invoked command in '/home/ivan/Documents/PAS/zadatak1/build/robot_visualize' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ivan/Documents/PAS/zadatak1/build/robot_visualize -- -j16 -l16
+Invoking command in '/home/ivan/Documents/PAS/zadatak1/build/robot_visualize': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ivan/Documents/PAS/zadatak1/build/robot_visualize
+Invoked command in '/home/ivan/Documents/PAS/zadatak1/build/robot_visualize' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ivan/Documents/PAS/zadatak1/build/robot_visualize
