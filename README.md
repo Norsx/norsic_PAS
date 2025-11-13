@@ -5,6 +5,7 @@ text
 
 ### 1. Otvori terminal u mapi gdje želiš klonirati repozitorij
 mkdir ivan_pas
+
 cd ivan_pas
 
 ### 2. Kloniraj samo `zadatak1_01` branch u podmapu `src`:
