@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ivan/Documents/PAS/zadatak1/src/fanuc_resources
+CMAKE_SOURCE_DIR = /home/ivan/Documents/PAS/zadatak1_sve/src/fanuc_resources
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ivan/Documents/PAS/zadatak1/build/fanuc_resources
+CMAKE_BINARY_DIR = /home/ivan/Documents/PAS/zadatak1_sve/build/fanuc_resources
 
 # Utility rule file for fanuc_resources_uninstall.
 
@@ -67,7 +67,7 @@ include CMakeFiles/fanuc_resources_uninstall.dir/compiler_depend.make
 include CMakeFiles/fanuc_resources_uninstall.dir/progress.make
 
 CMakeFiles/fanuc_resources_uninstall:
-	/usr/bin/cmake -P /home/ivan/Documents/PAS/zadatak1/build/fanuc_resources/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+	/usr/bin/cmake -P /home/ivan/Documents/PAS/zadatak1_sve/build/fanuc_resources/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
 
 fanuc_resources_uninstall: CMakeFiles/fanuc_resources_uninstall
 fanuc_resources_uninstall: CMakeFiles/fanuc_resources_uninstall.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/fanuc_resources_uninstall.dir/clean:
 .PHONY : CMakeFiles/fanuc_resources_uninstall.dir/clean
 
 CMakeFiles/fanuc_resources_uninstall.dir/depend:
-	cd /home/ivan/Documents/PAS/zadatak1/build/fanuc_resources && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ivan/Documents/PAS/zadatak1/src/fanuc_resources /home/ivan/Documents/PAS/zadatak1/src/fanuc_resources /home/ivan/Documents/PAS/zadatak1/build/fanuc_resources /home/ivan/Documents/PAS/zadatak1/build/fanuc_resources /home/ivan/Documents/PAS/zadatak1/build/fanuc_resources/CMakeFiles/fanuc_resources_uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ivan/Documents/PAS/zadatak1_sve/build/fanuc_resources && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ivan/Documents/PAS/zadatak1_sve/src/fanuc_resources /home/ivan/Documents/PAS/zadatak1_sve/src/fanuc_resources /home/ivan/Documents/PAS/zadatak1_sve/build/fanuc_resources /home/ivan/Documents/PAS/zadatak1_sve/build/fanuc_resources /home/ivan/Documents/PAS/zadatak1_sve/build/fanuc_resources/CMakeFiles/fanuc_resources_uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/fanuc_resources_uninstall.dir/depend
 

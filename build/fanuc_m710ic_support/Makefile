@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ivan/Documents/PAS/zadatak1/src/fanuc_m710ic_support
+CMAKE_SOURCE_DIR = /home/ivan/Documents/PAS/zadatak1_sve/src/fanuc_m710ic_support
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ivan/Documents/PAS/zadatak1/build/fanuc_m710ic_support
+CMAKE_BINARY_DIR = /home/ivan/Documents/PAS/zadatak1_sve/build/fanuc_m710ic_support
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -142,9 +142,9 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ivan/Documents/PAS/zadatak1/build/fanuc_m710ic_support/CMakeFiles /home/ivan/Documents/PAS/zadatak1/build/fanuc_m710ic_support//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ivan/Documents/PAS/zadatak1_sve/build/fanuc_m710ic_support/CMakeFiles /home/ivan/Documents/PAS/zadatak1_sve/build/fanuc_m710ic_support//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ivan/Documents/PAS/zadatak1/build/fanuc_m710ic_support/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ivan/Documents/PAS/zadatak1_sve/build/fanuc_m710ic_support/CMakeFiles 0
 .PHONY : all
 
 # The main clean target

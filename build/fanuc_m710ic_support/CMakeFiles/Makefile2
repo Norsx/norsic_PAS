@@ -54,10 +54,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ivan/Documents/PAS/zadatak1/src/fanuc_m710ic_support
+CMAKE_SOURCE_DIR = /home/ivan/Documents/PAS/zadatak1_sve/src/fanuc_m710ic_support
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ivan/Documents/PAS/zadatak1/build/fanuc_m710ic_support
+CMAKE_BINARY_DIR = /home/ivan/Documents/PAS/zadatak1_sve/build/fanuc_m710ic_support
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -82,14 +82,14 @@ clean: CMakeFiles/fanuc_m710ic_support_uninstall.dir/clean
 CMakeFiles/uninstall.dir/all: CMakeFiles/fanuc_m710ic_support_uninstall.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/uninstall.dir/build.make CMakeFiles/uninstall.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/uninstall.dir/build.make CMakeFiles/uninstall.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ivan/Documents/PAS/zadatak1/build/fanuc_m710ic_support/CMakeFiles --progress-num= "Built target uninstall"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ivan/Documents/PAS/zadatak1_sve/build/fanuc_m710ic_support/CMakeFiles --progress-num= "Built target uninstall"
 .PHONY : CMakeFiles/uninstall.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/uninstall.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ivan/Documents/PAS/zadatak1/build/fanuc_m710ic_support/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ivan/Documents/PAS/zadatak1_sve/build/fanuc_m710ic_support/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/uninstall.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ivan/Documents/PAS/zadatak1/build/fanuc_m710ic_support/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ivan/Documents/PAS/zadatak1_sve/build/fanuc_m710ic_support/CMakeFiles 0
 .PHONY : CMakeFiles/uninstall.dir/rule
 
 # Convenience name for target.
@@ -108,14 +108,14 @@ CMakeFiles/uninstall.dir/clean:
 CMakeFiles/fanuc_m710ic_support_uninstall.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/fanuc_m710ic_support_uninstall.dir/build.make CMakeFiles/fanuc_m710ic_support_uninstall.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/fanuc_m710ic_support_uninstall.dir/build.make CMakeFiles/fanuc_m710ic_support_uninstall.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ivan/Documents/PAS/zadatak1/build/fanuc_m710ic_support/CMakeFiles --progress-num= "Built target fanuc_m710ic_support_uninstall"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ivan/Documents/PAS/zadatak1_sve/build/fanuc_m710ic_support/CMakeFiles --progress-num= "Built target fanuc_m710ic_support_uninstall"
 .PHONY : CMakeFiles/fanuc_m710ic_support_uninstall.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/fanuc_m710ic_support_uninstall.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ivan/Documents/PAS/zadatak1/build/fanuc_m710ic_support/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ivan/Documents/PAS/zadatak1_sve/build/fanuc_m710ic_support/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/fanuc_m710ic_support_uninstall.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ivan/Documents/PAS/zadatak1/build/fanuc_m710ic_support/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ivan/Documents/PAS/zadatak1_sve/build/fanuc_m710ic_support/CMakeFiles 0
 .PHONY : CMakeFiles/fanuc_m710ic_support_uninstall.dir/rule
 
 # Convenience name for target.

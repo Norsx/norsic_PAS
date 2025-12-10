@@ -1,9 +1,0 @@
-/home/ivan/Documents/PAS/zadatak1/build/robot_visualize/CMakeFiles/uninstall.dir
-/home/ivan/Documents/PAS/zadatak1/build/robot_visualize/CMakeFiles/robot_visualize_uninstall.dir
-/home/ivan/Documents/PAS/zadatak1/build/robot_visualize/CMakeFiles/test.dir
-/home/ivan/Documents/PAS/zadatak1/build/robot_visualize/CMakeFiles/edit_cache.dir
-/home/ivan/Documents/PAS/zadatak1/build/robot_visualize/CMakeFiles/rebuild_cache.dir
-/home/ivan/Documents/PAS/zadatak1/build/robot_visualize/CMakeFiles/list_install_components.dir
-/home/ivan/Documents/PAS/zadatak1/build/robot_visualize/CMakeFiles/install.dir
-/home/ivan/Documents/PAS/zadatak1/build/robot_visualize/CMakeFiles/install/local.dir
-/home/ivan/Documents/PAS/zadatak1/build/robot_visualize/CMakeFiles/install/strip.dir
