@@ -16,13 +16,13 @@ source install/setup.bash
 ros2 launch fanuc_m710ic_support view_robot.launch.py
 
 # Z2
-Terminal1:
+**Terminal1:**
 
 source install/setup.bash
 
 ros2 launch fanuc_m710ic_support fanuc_controllers.launch.py
 
-Terminal2:
+**Terminal2:**
 
 source install/setup.bash
 
@@ -49,14 +49,14 @@ cd src/fanuc_m710ic_support/test
 python3 test_trajectory.py
 
 # Z3
-Terminal11:
+**Terminal11:**
 
 source install/setup.bash
 
 ros2 launch fanuc_m710ic_support fanuc_controllers.launch.py
 
 
-Terminal2:
+**Terminal2:**
 
 source install/setup.bash
 
@@ -65,20 +65,20 @@ Prebacivanje na forward_position_controller
 ros2 control switch_controllers --deactivate joint_trajectory_controller --activate forward_position_controller
 
  	
-Terminal3:
+**Terminal3:**
 
 source install/setup.bash
 
 ros2 launch fanuc_m710ic_support publish_forward_positions.launch.py
 
 # Z4
-Terminal1:
+**Terminal1:**
 
 source install/setup.bash
 
 ros2 launch fanuc_m710ic_support fanuc_controllers.launch.py
 
-Terminal2:
+**Terminal2:**
 
 source install/setup.bash
 
@@ -94,7 +94,7 @@ Konačna provjera da je promjena uspješna
 
 ros2 control list_controllers
 
-Terminal3:
+**Terminal3:**
 
 source install/setup.bash
 
