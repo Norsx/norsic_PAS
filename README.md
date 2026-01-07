@@ -44,7 +44,7 @@ source install/setup.bash
 
 ros2 control switch_controllers --deactivate forward_position_controller --activate joint_trajectory_controller
 
-cd src/fanuc_m710ic_support/test
+cd src/src/fanuc_m710ic_support/test
 
 python3 test_trajectory.py
 
