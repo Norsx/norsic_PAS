@@ -1,0 +1,28 @@
+[0.526s] Invoking command in '/home/ivan/Documents/PAS/zadatak2/projektiranje-autonomnih-sustava/student-assignment-02/src/student_assignment_02': PYTHONPATH=/home/ivan/Documents/PAS/zadatak2/projektiranje-autonomnih-sustava/student-assignment-02/build/student_assignment_02/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ivan/Documents/PAS/zadatak2/projektiranje-autonomnih-sustava/student-assignment-02/install/student_assignment_02/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/student_assignment_02 build --build-base /home/ivan/Documents/PAS/zadatak2/projektiranje-autonomnih-sustava/student-assignment-02/build/student_assignment_02/build install --record /home/ivan/Documents/PAS/zadatak2/projektiranje-autonomnih-sustava/student-assignment-02/build/student_assignment_02/install.log --single-version-externally-managed install_data
+[0.691s] running egg_info
+[0.692s] writing ../../build/student_assignment_02/student_assignment_02.egg-info/PKG-INFO
+[0.692s] writing dependency_links to ../../build/student_assignment_02/student_assignment_02.egg-info/dependency_links.txt
+[0.692s] writing entry points to ../../build/student_assignment_02/student_assignment_02.egg-info/entry_points.txt
+[0.692s] writing requirements to ../../build/student_assignment_02/student_assignment_02.egg-info/requires.txt
+[0.692s] writing top-level names to ../../build/student_assignment_02/student_assignment_02.egg-info/top_level.txt
+[0.693s] reading manifest file '../../build/student_assignment_02/student_assignment_02.egg-info/SOURCES.txt'
+[0.693s] adding license file 'LICENSE'
+[0.694s] writing manifest file '../../build/student_assignment_02/student_assignment_02.egg-info/SOURCES.txt'
+[0.694s] running build
+[0.694s] running build_py
+[0.695s] running install
+[0.695s] running install_lib
+[0.696s] running install_data
+[0.696s] running install_egg_info
+[0.697s] removing '/home/ivan/Documents/PAS/zadatak2/projektiranje-autonomnih-sustava/student-assignment-02/install/student_assignment_02/lib/python3.10/site-packages/student_assignment_02-0.0.0-py3.10.egg-info' (and everything under it)
+[0.698s] Copying ../../build/student_assignment_02/student_assignment_02.egg-info to /home/ivan/Documents/PAS/zadatak2/projektiranje-autonomnih-sustava/student-assignment-02/install/student_assignment_02/lib/python3.10/site-packages/student_assignment_02-0.0.0-py3.10.egg-info
+[0.698s] running install_scripts
+[0.713s] Installing a_star_path_planner script to /home/ivan/Documents/PAS/zadatak2/projektiranje-autonomnih-sustava/student-assignment-02/install/student_assignment_02/lib/student_assignment_02
+[0.713s] Installing d_star_path_planner script to /home/ivan/Documents/PAS/zadatak2/projektiranje-autonomnih-sustava/student-assignment-02/install/student_assignment_02/lib/student_assignment_02
+[0.713s] Installing goal_navigation_node script to /home/ivan/Documents/PAS/zadatak2/projektiranje-autonomnih-sustava/student-assignment-02/install/student_assignment_02/lib/student_assignment_02
+[0.713s] Installing map_republisher script to /home/ivan/Documents/PAS/zadatak2/projektiranje-autonomnih-sustava/student-assignment-02/install/student_assignment_02/lib/student_assignment_02
+[0.713s] Installing nav2_adapter script to /home/ivan/Documents/PAS/zadatak2/projektiranje-autonomnih-sustava/student-assignment-02/install/student_assignment_02/lib/student_assignment_02
+[0.713s] Installing path_follower script to /home/ivan/Documents/PAS/zadatak2/projektiranje-autonomnih-sustava/student-assignment-02/install/student_assignment_02/lib/student_assignment_02
+[0.713s] Installing path_planning_node script to /home/ivan/Documents/PAS/zadatak2/projektiranje-autonomnih-sustava/student-assignment-02/install/student_assignment_02/lib/student_assignment_02
+[0.714s] writing list of installed files to '/home/ivan/Documents/PAS/zadatak2/projektiranje-autonomnih-sustava/student-assignment-02/build/student_assignment_02/install.log'
+[0.735s] Invoked command in '/home/ivan/Documents/PAS/zadatak2/projektiranje-autonomnih-sustava/student-assignment-02/src/student_assignment_02' returned '0': PYTHONPATH=/home/ivan/Documents/PAS/zadatak2/projektiranje-autonomnih-sustava/student-assignment-02/build/student_assignment_02/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ivan/Documents/PAS/zadatak2/projektiranje-autonomnih-sustava/student-assignment-02/install/student_assignment_02/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/student_assignment_02 build --build-base /home/ivan/Documents/PAS/zadatak2/projektiranje-autonomnih-sustava/student-assignment-02/build/student_assignment_02/build install --record /home/ivan/Documents/PAS/zadatak2/projektiranje-autonomnih-sustava/student-assignment-02/build/student_assignment_02/install.log --single-version-externally-managed install_data
