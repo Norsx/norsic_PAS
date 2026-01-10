@@ -2,6 +2,14 @@
 
 ROS2 paket za navigaciju mobilnog robota s D* algoritmom.
 
+## Kloniranje Repozitorija
+
+```bash
+# Kloniraj samo zadatak2_01 branch
+git clone -b zadatak2_01 --single-branch https://github.com/Norsx/norsic_PAS.git ~/Documents/PAS/zadatak2
+cd ~/Documents/PAS/zadatak2
+```
+
 ## Setup
 
 ```bash
