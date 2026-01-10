@@ -39,14 +39,10 @@ ros2 launch zadatak2 d_star_path_planner.launch.py
 ## Dostupne Mape
 
 - `map_name:=map_01`
-- `map_name:=map_02`
 
 ## Ostali Launch Fajlovi
 
 ```bash
-# A* algoritam
-ros2 launch zadatak2 a_star_path_planner.launch.py
-
 # Mapiranje
 ros2 launch zadatak2 mapping_complete_launch.py
 
