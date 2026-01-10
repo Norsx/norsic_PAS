@@ -1,0 +1,86 @@
+running egg_info
+creating ../../build/zadatak2/zadatak2.egg-info
+writing ../../build/zadatak2/zadatak2.egg-info/PKG-INFO
+writing dependency_links to ../../build/zadatak2/zadatak2.egg-info/dependency_links.txt
+writing entry points to ../../build/zadatak2/zadatak2.egg-info/entry_points.txt
+writing requirements to ../../build/zadatak2/zadatak2.egg-info/requires.txt
+writing top-level names to ../../build/zadatak2/zadatak2.egg-info/top_level.txt
+writing manifest file '../../build/zadatak2/zadatak2.egg-info/SOURCES.txt'
+reading manifest file '../../build/zadatak2/zadatak2.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/zadatak2/zadatak2.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/ivan/Documents/PAS/zadatak2/pas/zadatak2/build/zadatak2/build
+creating /home/ivan/Documents/PAS/zadatak2/pas/zadatak2/build/zadatak2/build/lib
+creating /home/ivan/Documents/PAS/zadatak2/pas/zadatak2/build/zadatak2/build/lib/zadatak2
+copying zadatak2/path_follower_node.py -> /home/ivan/Documents/PAS/zadatak2/pas/zadatak2/build/zadatak2/build/lib/zadatak2
+copying zadatak2/d_star_path_planner.py -> /home/ivan/Documents/PAS/zadatak2/pas/zadatak2/build/zadatak2/build/lib/zadatak2
+copying zadatak2/__init__.py -> /home/ivan/Documents/PAS/zadatak2/pas/zadatak2/build/zadatak2/build/lib/zadatak2
+copying zadatak2/goal_navigation_node.py -> /home/ivan/Documents/PAS/zadatak2/pas/zadatak2/build/zadatak2/build/lib/zadatak2
+copying zadatak2/nav2_adapter.py -> /home/ivan/Documents/PAS/zadatak2/pas/zadatak2/build/zadatak2/build/lib/zadatak2
+copying zadatak2/path_planning_node.py -> /home/ivan/Documents/PAS/zadatak2/pas/zadatak2/build/zadatak2/build/lib/zadatak2
+copying zadatak2/navigation_complete_nav2.launch.py -> /home/ivan/Documents/PAS/zadatak2/pas/zadatak2/build/zadatak2/build/lib/zadatak2
+copying zadatak2/map_republisher.py -> /home/ivan/Documents/PAS/zadatak2/pas/zadatak2/build/zadatak2/build/lib/zadatak2
+running install
+running install_lib
+creating /home/ivan/Documents/PAS/zadatak2/pas/zadatak2/install/zadatak2/lib/python3.10/site-packages/zadatak2
+copying /home/ivan/Documents/PAS/zadatak2/pas/zadatak2/build/zadatak2/build/lib/zadatak2/path_follower_node.py -> /home/ivan/Documents/PAS/zadatak2/pas/zadatak2/install/zadatak2/lib/python3.10/site-packages/zadatak2
+copying /home/ivan/Documents/PAS/zadatak2/pas/zadatak2/build/zadatak2/build/lib/zadatak2/d_star_path_planner.py -> /home/ivan/Documents/PAS/zadatak2/pas/zadatak2/install/zadatak2/lib/python3.10/site-packages/zadatak2
+copying /home/ivan/Documents/PAS/zadatak2/pas/zadatak2/build/zadatak2/build/lib/zadatak2/__init__.py -> /home/ivan/Documents/PAS/zadatak2/pas/zadatak2/install/zadatak2/lib/python3.10/site-packages/zadatak2
+copying /home/ivan/Documents/PAS/zadatak2/pas/zadatak2/build/zadatak2/build/lib/zadatak2/goal_navigation_node.py -> /home/ivan/Documents/PAS/zadatak2/pas/zadatak2/install/zadatak2/lib/python3.10/site-packages/zadatak2
+copying /home/ivan/Documents/PAS/zadatak2/pas/zadatak2/build/zadatak2/build/lib/zadatak2/nav2_adapter.py -> /home/ivan/Documents/PAS/zadatak2/pas/zadatak2/install/zadatak2/lib/python3.10/site-packages/zadatak2
+copying /home/ivan/Documents/PAS/zadatak2/pas/zadatak2/build/zadatak2/build/lib/zadatak2/path_planning_node.py -> /home/ivan/Documents/PAS/zadatak2/pas/zadatak2/install/zadatak2/lib/python3.10/site-packages/zadatak2
+copying /home/ivan/Documents/PAS/zadatak2/pas/zadatak2/build/zadatak2/build/lib/zadatak2/navigation_complete_nav2.launch.py -> /home/ivan/Documents/PAS/zadatak2/pas/zadatak2/install/zadatak2/lib/python3.10/site-packages/zadatak2
+copying /home/ivan/Documents/PAS/zadatak2/pas/zadatak2/build/zadatak2/build/lib/zadatak2/map_republisher.py -> /home/ivan/Documents/PAS/zadatak2/pas/zadatak2/install/zadatak2/lib/python3.10/site-packages/zadatak2
+byte-compiling /home/ivan/Documents/PAS/zadatak2/pas/zadatak2/install/zadatak2/lib/python3.10/site-packages/zadatak2/path_follower_node.py to path_follower_node.cpython-310.pyc
+byte-compiling /home/ivan/Documents/PAS/zadatak2/pas/zadatak2/install/zadatak2/lib/python3.10/site-packages/zadatak2/d_star_path_planner.py to d_star_path_planner.cpython-310.pyc
+byte-compiling /home/ivan/Documents/PAS/zadatak2/pas/zadatak2/install/zadatak2/lib/python3.10/site-packages/zadatak2/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/ivan/Documents/PAS/zadatak2/pas/zadatak2/install/zadatak2/lib/python3.10/site-packages/zadatak2/goal_navigation_node.py to goal_navigation_node.cpython-310.pyc
+byte-compiling /home/ivan/Documents/PAS/zadatak2/pas/zadatak2/install/zadatak2/lib/python3.10/site-packages/zadatak2/nav2_adapter.py to nav2_adapter.cpython-310.pyc
+byte-compiling /home/ivan/Documents/PAS/zadatak2/pas/zadatak2/install/zadatak2/lib/python3.10/site-packages/zadatak2/path_planning_node.py to path_planning_node.cpython-310.pyc
+byte-compiling /home/ivan/Documents/PAS/zadatak2/pas/zadatak2/install/zadatak2/lib/python3.10/site-packages/zadatak2/navigation_complete_nav2.launch.py to navigation_complete_nav2.launch.cpython-310.pyc
+byte-compiling /home/ivan/Documents/PAS/zadatak2/pas/zadatak2/install/zadatak2/lib/python3.10/site-packages/zadatak2/map_republisher.py to map_republisher.cpython-310.pyc
+running install_data
+creating /home/ivan/Documents/PAS/zadatak2/pas/zadatak2/install/zadatak2/share/ament_index
+creating /home/ivan/Documents/PAS/zadatak2/pas/zadatak2/install/zadatak2/share/ament_index/resource_index
+creating /home/ivan/Documents/PAS/zadatak2/pas/zadatak2/install/zadatak2/share/ament_index/resource_index/packages
+copying resource/zadatak2 -> /home/ivan/Documents/PAS/zadatak2/pas/zadatak2/install/zadatak2/share/ament_index/resource_index/packages
+copying package.xml -> /home/ivan/Documents/PAS/zadatak2/pas/zadatak2/install/zadatak2/share/zadatak2
+creating /home/ivan/Documents/PAS/zadatak2/pas/zadatak2/install/zadatak2/share/zadatak2/launch
+copying launch/navigation_complete.launch.py -> /home/ivan/Documents/PAS/zadatak2/pas/zadatak2/install/zadatak2/share/zadatak2/launch
+copying launch/stage_launch.py -> /home/ivan/Documents/PAS/zadatak2/pas/zadatak2/install/zadatak2/share/zadatak2/launch
+copying launch/mapping_complete_launch.py -> /home/ivan/Documents/PAS/zadatak2/pas/zadatak2/install/zadatak2/share/zadatak2/launch
+copying launch/localization_launch.py -> /home/ivan/Documents/PAS/zadatak2/pas/zadatak2/install/zadatak2/share/zadatak2/launch
+copying launch/online_async_launch.py -> /home/ivan/Documents/PAS/zadatak2/pas/zadatak2/install/zadatak2/share/zadatak2/launch
+copying launch/localization_complete_launch.py -> /home/ivan/Documents/PAS/zadatak2/pas/zadatak2/install/zadatak2/share/zadatak2/launch
+copying launch/mapping_launch.py -> /home/ivan/Documents/PAS/zadatak2/pas/zadatak2/install/zadatak2/share/zadatak2/launch
+copying launch/navigation_complete_nav2.launch.py -> /home/ivan/Documents/PAS/zadatak2/pas/zadatak2/install/zadatak2/share/zadatak2/launch
+copying launch/navigation_launch.py -> /home/ivan/Documents/PAS/zadatak2/pas/zadatak2/install/zadatak2/share/zadatak2/launch
+copying launch/d_star_path_planner.launch.py -> /home/ivan/Documents/PAS/zadatak2/pas/zadatak2/install/zadatak2/share/zadatak2/launch
+creating /home/ivan/Documents/PAS/zadatak2/pas/zadatak2/install/zadatak2/share/zadatak2/config
+copying config/mapper_params_online_async.yaml -> /home/ivan/Documents/PAS/zadatak2/pas/zadatak2/install/zadatak2/share/zadatak2/config
+copying config/nav2_params.yaml -> /home/ivan/Documents/PAS/zadatak2/pas/zadatak2/install/zadatak2/share/zadatak2/config
+copying config/a_star_path_planner_examples.yaml -> /home/ivan/Documents/PAS/zadatak2/pas/zadatak2/install/zadatak2/share/zadatak2/config
+copying config/rviz_navigation.rviz -> /home/ivan/Documents/PAS/zadatak2/pas/zadatak2/install/zadatak2/share/zadatak2/config
+copying config/rviz_config.rviz -> /home/ivan/Documents/PAS/zadatak2/pas/zadatak2/install/zadatak2/share/zadatak2/config
+creating /home/ivan/Documents/PAS/zadatak2/pas/zadatak2/install/zadatak2/share/zadatak2/world
+copying world/map_01.world -> /home/ivan/Documents/PAS/zadatak2/pas/zadatak2/install/zadatak2/share/zadatak2/world
+copying world/map_01.png -> /home/ivan/Documents/PAS/zadatak2/pas/zadatak2/install/zadatak2/share/zadatak2/world
+creating /home/ivan/Documents/PAS/zadatak2/pas/zadatak2/install/zadatak2/share/zadatak2/world/include
+copying world/include/pioneer2dx.inc -> /home/ivan/Documents/PAS/zadatak2/pas/zadatak2/install/zadatak2/share/zadatak2/world/include
+copying world/include/robots.inc -> /home/ivan/Documents/PAS/zadatak2/pas/zadatak2/install/zadatak2/share/zadatak2/world/include
+creating /home/ivan/Documents/PAS/zadatak2/pas/zadatak2/install/zadatak2/share/zadatak2/mapped_maps
+creating /home/ivan/Documents/PAS/zadatak2/pas/zadatak2/install/zadatak2/share/zadatak2/mapped_maps/map_01
+copying mapped_maps/map_01/map_01.yaml -> /home/ivan/Documents/PAS/zadatak2/pas/zadatak2/install/zadatak2/share/zadatak2/mapped_maps/map_01
+copying mapped_maps/map_01/map_01.pgm -> /home/ivan/Documents/PAS/zadatak2/pas/zadatak2/install/zadatak2/share/zadatak2/mapped_maps/map_01
+running install_egg_info
+Copying ../../build/zadatak2/zadatak2.egg-info to /home/ivan/Documents/PAS/zadatak2/pas/zadatak2/install/zadatak2/lib/python3.10/site-packages/zadatak2-0.0.0-py3.10.egg-info
+running install_scripts
+Installing d_star_path_planner script to /home/ivan/Documents/PAS/zadatak2/pas/zadatak2/install/zadatak2/lib/zadatak2
+Installing goal_navigation_node script to /home/ivan/Documents/PAS/zadatak2/pas/zadatak2/install/zadatak2/lib/zadatak2
+Installing map_republisher script to /home/ivan/Documents/PAS/zadatak2/pas/zadatak2/install/zadatak2/lib/zadatak2
+Installing nav2_adapter script to /home/ivan/Documents/PAS/zadatak2/pas/zadatak2/install/zadatak2/lib/zadatak2
+Installing path_follower script to /home/ivan/Documents/PAS/zadatak2/pas/zadatak2/install/zadatak2/lib/zadatak2
+Installing path_planning_node script to /home/ivan/Documents/PAS/zadatak2/pas/zadatak2/install/zadatak2/lib/zadatak2
+writing list of installed files to '/home/ivan/Documents/PAS/zadatak2/pas/zadatak2/build/zadatak2/install.log'
