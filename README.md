@@ -6,14 +6,14 @@ ROS2 paket za navigaciju mobilnog robota s D* algoritmom.
 
 ```bash
 # Kloniraj samo zadatak2_01 branch
-git clone -b zadatak2_01 --single-branch https://github.com/Norsx/norsic_PAS.git ~/Documents/PAS/zadatak2
-cd ~/Documents/PAS/zadatak2
+git clone -b zadatak2_01 --single-branch https://github.com/Norsx/norsic_PAS.git zadatak2
+cd zadatak2
 ```
 
 ## Setup
 
 ```bash
-cd ~/Documents/PAS/zadatak2/pas/zadatak2
+cd pas/zadatak2
 colcon build --packages-select zadatak2
 source install/setup.bash
 ```
@@ -22,14 +22,14 @@ source install/setup.bash
 
 **Terminal 1 - Lokalizacija:**
 ```bash
-cd ~/Documents/PAS/zadatak2/pas/zadatak2
+cd pas/zadatak2
 source install/setup.bash
 ros2 launch zadatak2 localization_complete_launch.py map_name:=map_02
 ```
 
 **Terminal 2 - D* Planner:**
 ```bash
-cd ~/Documents/PAS/zadatak2/pas/zadatak2
+cd pas/zadatak2
 source install/setup.bash
 ros2 launch zadatak2 d_star_path_planner.launch.py
 ```
