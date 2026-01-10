@@ -9,10 +9,10 @@ Koristi base_link za početnu točku (pozicija robota)
 Dodao: Inflation buffer od 0.2m oko zidova za sigurnu putanju
 
 Vizualizacija:
-- Explored cells: Narančasta
-- Frontier: Žuta
+- Explored cells: Narančasta KOCKICE
+- Frontier: Žuta KOCKICE
 - Inflation buffer: Crvena
-- Path: Plava (iz RViz Path display)
+- Path: Plava DEBLJA LINIJA
 """
 
 import rclpy
@@ -92,6 +92,13 @@ class DStarPathPlanner(Node):
             qos
         )
         
+        # Publisher za deblju liniju putanje (LINE_STRIP)
+        self.path_line_publisher = self.create_publisher(
+            Marker,
+            '/d_star_path_line',
+            qos
+        )
+        
         self.map_data = None
         self.map_metadata = None
         self.marker_id_counter = 0
@@ -133,7 +140,7 @@ class DStarPathPlanner(Node):
         self.get_logger().info(f'Inflation distance: {self.inflation_distance_m}m (0.2m = 20cm)')
         self.get_logger().info('Slusa na /goal_pose za dinamicki goal (RViz 2D Goal Pose)')
         self.get_logger().info('Koristi base_link za početnu točku (poziciju robota)')
-        self.get_logger().info('Vizualizacija boja: Narančasta (explored), Žuta (frontier), Crvena (inflation)')
+        self.get_logger().info('Vizualizacija: Narančasta KOCKICE (explored), Žuta KOCKICE (frontier), DEBLJA LINIJA (path)')
     
     def get_robot_position(self) -> Tuple[float, float]:
         """
@@ -208,7 +215,7 @@ class DStarPathPlanner(Node):
     
     def create_inflated_map(self) -> List[int]:
         """
-        Kreiraj inflirane mape - dodaj buffer oko prepreka
+        Kreiraj inflirane mape - dodaj buffer oko prepraka
         Algoritam: Distance transform - označi sve stanice blizu prepraka
         """
         if not self.map_metadata or not self.map_data:
@@ -239,7 +246,7 @@ class DStarPathPlanner(Node):
                         inflated[idx] = 60 + int((inflation_cells - min_dist) * 10)
         
         self.get_logger().info(
-            f'Inflirana mapa kreirana - buffer oko prepreka: {inflation_cells} stanica'
+            f'Inflirana mapa kreirana - buffer oko prepraka: {inflation_cells} stanica'
         )
         return inflated
     
@@ -305,6 +312,7 @@ class DStarPathPlanner(Node):
         
         if path:
             self.publish_path(path)
+            self.publish_path_line(path)  # Objavi deblju liniju
             self.get_logger().info(f'Putanja pronađena! Dužina: {len(path)} stanica')
         else:
             self.get_logger().warn('Putanja nije pronađena!')
@@ -569,7 +577,7 @@ class DStarPathPlanner(Node):
     
     def publish_path(self, path: List[Tuple[int, int]]):
         """
-        Objavi pronađenu putanju
+        Objavi pronađenu putanju (Path poruka za Nav2)
         """
         ros_path = Path()
         ros_path.header.frame_id = 'map'
@@ -590,6 +598,41 @@ class DStarPathPlanner(Node):
         
         self.path_publisher.publish(ros_path)
     
+    def publish_path_line(self, path: List[Tuple[int, int]]):
+        """
+        Objavi putanju kao LINE_STRIP marker (deblja linija)
+        """
+        if not path:
+            return
+        
+        line_marker = Marker()
+        line_marker.header.frame_id = 'map'
+        line_marker.header.stamp = self.get_clock().now().to_msg()
+        line_marker.ns = 'd_star_path_line'
+        line_marker.id = 0
+        line_marker.type = Marker.LINE_STRIP
+        line_marker.action = Marker.ADD
+        
+        # Dodaj sve točke putanje
+        for grid_pos in path:
+            world_x, world_y = self.grid_to_world(grid_pos[0], grid_pos[1])
+            point = Point()
+            point.x = world_x
+            point.y = world_y
+            point.z = 0.05  # Malo iznad tla
+            line_marker.points.append(point)
+        
+        # Postavi debljinu linije (0.15m = 15cm)
+        line_marker.scale.x = 0.15
+        
+        # PLAVA boja za putanju
+        line_marker.color.r = 0.0
+        line_marker.color.g = 0.5
+        line_marker.color.b = 1.0
+        line_marker.color.a = 0.9
+        
+        self.path_line_publisher.publish(line_marker)
+    
     def visualize_search(
         self, 
         explored: List[Tuple[int, int]], 
@@ -597,10 +640,10 @@ class DStarPathPlanner(Node):
     ):
         """
         Vizualiziraj pretraživanje u RViz-u
-        Boje: Narančasta (explored), Žuta (frontier)
+        Boje: Narančasta (explored KOCKICE), Žuta (frontier KOCKICE)
         """
         
-        # Vizualizacija istraživanih stanica - NARANČASTA
+        # Vizualizacija istraživanih stanica - NARANČASTA KOCKICE
         explored_markers = MarkerArray()
         
         for idx, (gx, gy) in enumerate(explored):
@@ -614,28 +657,28 @@ class DStarPathPlanner(Node):
             marker.header.stamp = self.get_clock().now().to_msg()
             marker.ns = 'd_star_explored_cells'
             marker.id = idx // 5
-            marker.type = Marker.SPHERE
+            marker.type = Marker.CUBE  # PROMIJENIO: CUBE umjesto SPHERE
             marker.action = Marker.ADD
             
             marker.pose.position.x = world_x
             marker.pose.position.y = world_y
             marker.pose.position.z = 0.0
             
-            marker.scale.x = self.map_metadata.resolution * 0.8
-            marker.scale.y = self.map_metadata.resolution * 0.8
-            marker.scale.z = self.map_metadata.resolution * 0.8
+            marker.scale.x = self.map_metadata.resolution * 0.9
+            marker.scale.y = self.map_metadata.resolution * 0.9
+            marker.scale.z = self.map_metadata.resolution * 0.5  # Plošnate kockice
             
             # NARANČASTA boja za explored cells
             marker.color.r = 1.0
             marker.color.g = 0.6
             marker.color.b = 0.0
-            marker.color.a = 0.4
+            marker.color.a = 0.5
             
             explored_markers.markers.append(marker)
         
         self.visualization_publisher.publish(explored_markers)
         
-        # Vizualizacija čelne fronte - ŽUTA
+        # Vizualizacija čelne fronte - ŽUTA KOCKICE
         frontier_markers = MarkerArray()
         
         for idx, (gx, gy) in enumerate(frontier[-1000:]):  # Samo zadnjih 1000
@@ -646,22 +689,22 @@ class DStarPathPlanner(Node):
             marker.header.stamp = self.get_clock().now().to_msg()
             marker.ns = 'd_star_frontier'
             marker.id = idx
-            marker.type = Marker.SPHERE
+            marker.type = Marker.CUBE  # PROMIJENIO: CUBE umjesto SPHERE
             marker.action = Marker.ADD
             
             marker.pose.position.x = world_x
             marker.pose.position.y = world_y
             marker.pose.position.z = 0.0
             
-            marker.scale.x = self.map_metadata.resolution * 0.6
-            marker.scale.y = self.map_metadata.resolution * 0.6
-            marker.scale.z = self.map_metadata.resolution * 0.6
+            marker.scale.x = self.map_metadata.resolution * 0.7
+            marker.scale.y = self.map_metadata.resolution * 0.7
+            marker.scale.z = self.map_metadata.resolution * 0.4
             
             # ŽUTA boja za frontier
             marker.color.r = 1.0
             marker.color.g = 1.0
             marker.color.b = 0.0
-            marker.color.a = 0.6
+            marker.color.a = 0.7
             
             frontier_markers.markers.append(marker)
         
