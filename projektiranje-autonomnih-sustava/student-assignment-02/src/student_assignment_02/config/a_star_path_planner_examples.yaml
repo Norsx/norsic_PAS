@@ -1,0 +1,47 @@
+# A* Path Planner - Primjer konfiguracije
+# Kopirajte ovaj sadržaj u launch datoteku ili proslijedite kao ROS parametre
+
+# Jednostavna primjena - Blizak cilj
+simple:
+  goal_x: 2.0
+  goal_y: 2.0
+  start_x: 0.0
+  start_y: 0.0
+  allow_diagonal: true
+  inflation_radius: 1
+
+# Udaljeniji cilj s dijagonalama
+diagonal_path:
+  goal_x: 8.0
+  goal_y: 8.0
+  start_x: 1.0
+  start_y: 1.0
+  allow_diagonal: true
+  inflation_radius: 1
+
+# Bez dijagonala (samo ortogonalno kretanje)
+orthogonal_only:
+  goal_x: 5.0
+  goal_y: 5.0
+  start_x: 0.0
+  start_y: 0.0
+  allow_diagonal: false
+  inflation_radius: 1
+
+# S manjim inflation radiusom
+low_inflation:
+  goal_x: 10.0
+  goal_y: 10.0
+  start_x: 0.0
+  start_y: 0.0
+  allow_diagonal: true
+  inflation_radius: 0
+
+# S većim inflation radiusom
+high_inflation:
+  goal_x: 8.0
+  goal_y: 8.0
+  start_x: 1.0
+  start_y: 1.0
+  allow_diagonal: true
+  inflation_radius: 2

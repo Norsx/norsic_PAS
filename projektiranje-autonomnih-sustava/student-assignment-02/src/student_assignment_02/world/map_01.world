@@ -1,0 +1,50 @@
+# map_01.world
+# 10x10m mapa s jednim robotom
+
+include "include/robots.inc"
+
+# Rezolucija simulacije
+resolution 0.01
+
+# Simulacijski timestep
+interval_sim 100
+
+# Konfiguracija prozora
+window
+(
+  size [ 1024 1024 ]
+  scale 50.0
+  center [ 5.0 5.0 ]
+  show_data 1
+)
+
+# DEFINIRAJ floorplan model
+define floorplan model
+(
+  color "gray50"
+  boundary 1
+  gui_nose 0
+  gui_grid 0
+  gui_outline 0
+  gripper_return 0
+  fiducial_return 0
+  laser_return 1
+)
+
+# KORISTI floorplan s mapom
+floorplan
+(
+  name "map_01"
+  size [ 10.0 10.0 0.5 ]
+  pose [ 5.0 5.0 0.0 0.0 ]
+  bitmap "map_01.png"
+  gui_move 0
+)
+
+# Dodaj robota s laserskim skenerom
+pioneer2dx_with_laser
+(
+  name "robot_0"
+  color "red"
+  pose [ 1.0 1.0 0.0 0.0 ]
+)
