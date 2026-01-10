@@ -24,7 +24,7 @@ source install/setup.bash
 ```bash
 cd pas/zadatak2
 source install/setup.bash
-ros2 launch zadatak2 localization_complete_launch.py map_name:=map_02
+ros2 launch zadatak2 localization_complete_launch.py map_name:=map_01
 ```
 
 **Terminal 2 - D* Planner:**
