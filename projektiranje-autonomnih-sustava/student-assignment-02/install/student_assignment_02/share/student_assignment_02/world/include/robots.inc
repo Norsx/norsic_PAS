@@ -1,1 +1,1 @@
-/home/ivan/Documents/PAS/zadatak2_oroginal_novo/projektiranje-autonomnih-sustava/student-assignment-02/build/student_assignment_02/world/include/robots.inc
+/home/ivan/Documents/PAS/zadatak2/projektiranje-autonomnih-sustava/student-assignment-02/build/student_assignment_02/world/include/robots.inc

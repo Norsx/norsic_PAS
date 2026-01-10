@@ -1,1 +1,1 @@
-/home/ivan/Documents/PAS/zadatak2_oroginal_novo/projektiranje-autonomnih-sustava/student-assignment-02/build/student_assignment_02/launch/navigation_complete.launch.py
+/home/ivan/Documents/PAS/zadatak2/projektiranje-autonomnih-sustava/student-assignment-02/build/student_assignment_02/launch/navigation_complete.launch.py
