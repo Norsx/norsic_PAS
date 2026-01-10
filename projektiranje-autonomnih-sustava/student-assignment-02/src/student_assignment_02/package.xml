@@ -4,7 +4,7 @@
   <name>student_assignment_02</name>
   <version>0.0.0</version>
   <description>ROS2 Python package for autonomous system mapping and path planning using Stage simulator with A* and D* algorithms</description>
-  <maintainer email="kh239762@fsb.hr">khartl</maintainer>
+  <maintainer email="ivan.norsic01@gmail.com">Norsx</maintainer>
   <license>Apache-2.0</license>
 
   <buildtool_depend>ament_python</buildtool_depend>
