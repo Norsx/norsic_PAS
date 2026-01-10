@@ -1,0 +1,88 @@
+[0.490s] Invoking command in '/home/ivan/Documents/PAS/zadatak2/projektiranje-autonomnih-sustava/zadatak2/src/zadatak2': PYTHONPATH=/home/ivan/Documents/PAS/zadatak2/projektiranje-autonomnih-sustava/zadatak2/build/zadatak2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ivan/Documents/PAS/zadatak2/projektiranje-autonomnih-sustava/zadatak2/install/zadatak2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/zadatak2 build --build-base /home/ivan/Documents/PAS/zadatak2/projektiranje-autonomnih-sustava/zadatak2/build/zadatak2/build install --record /home/ivan/Documents/PAS/zadatak2/projektiranje-autonomnih-sustava/zadatak2/build/zadatak2/install.log --single-version-externally-managed install_data
+[0.645s] running egg_info
+[0.645s] creating ../../build/zadatak2/zadatak2.egg-info
+[0.645s] writing ../../build/zadatak2/zadatak2.egg-info/PKG-INFO
+[0.645s] writing dependency_links to ../../build/zadatak2/zadatak2.egg-info/dependency_links.txt
+[0.646s] writing entry points to ../../build/zadatak2/zadatak2.egg-info/entry_points.txt
+[0.646s] writing requirements to ../../build/zadatak2/zadatak2.egg-info/requires.txt
+[0.646s] writing top-level names to ../../build/zadatak2/zadatak2.egg-info/top_level.txt
+[0.646s] writing manifest file '../../build/zadatak2/zadatak2.egg-info/SOURCES.txt'
+[0.647s] reading manifest file '../../build/zadatak2/zadatak2.egg-info/SOURCES.txt'
+[0.647s] adding license file 'LICENSE'
+[0.647s] writing manifest file '../../build/zadatak2/zadatak2.egg-info/SOURCES.txt'
+[0.647s] running build
+[0.647s] running build_py
+[0.647s] creating /home/ivan/Documents/PAS/zadatak2/projektiranje-autonomnih-sustava/zadatak2/build/zadatak2/build
+[0.648s] creating /home/ivan/Documents/PAS/zadatak2/projektiranje-autonomnih-sustava/zadatak2/build/zadatak2/build/lib
+[0.648s] creating /home/ivan/Documents/PAS/zadatak2/projektiranje-autonomnih-sustava/zadatak2/build/zadatak2/build/lib/zadatak2
+[0.648s] copying zadatak2/path_follower_node.py -> /home/ivan/Documents/PAS/zadatak2/projektiranje-autonomnih-sustava/zadatak2/build/zadatak2/build/lib/zadatak2
+[0.648s] copying zadatak2/d_star_path_planner.py -> /home/ivan/Documents/PAS/zadatak2/projektiranje-autonomnih-sustava/zadatak2/build/zadatak2/build/lib/zadatak2
+[0.648s] copying zadatak2/__init__.py -> /home/ivan/Documents/PAS/zadatak2/projektiranje-autonomnih-sustava/zadatak2/build/zadatak2/build/lib/zadatak2
+[0.648s] copying zadatak2/goal_navigation_node.py -> /home/ivan/Documents/PAS/zadatak2/projektiranje-autonomnih-sustava/zadatak2/build/zadatak2/build/lib/zadatak2
+[0.648s] copying zadatak2/nav2_adapter.py -> /home/ivan/Documents/PAS/zadatak2/projektiranje-autonomnih-sustava/zadatak2/build/zadatak2/build/lib/zadatak2
+[0.648s] copying zadatak2/path_planning_node.py -> /home/ivan/Documents/PAS/zadatak2/projektiranje-autonomnih-sustava/zadatak2/build/zadatak2/build/lib/zadatak2
+[0.648s] copying zadatak2/navigation_complete_nav2.launch.py -> /home/ivan/Documents/PAS/zadatak2/projektiranje-autonomnih-sustava/zadatak2/build/zadatak2/build/lib/zadatak2
+[0.648s] copying zadatak2/map_republisher.py -> /home/ivan/Documents/PAS/zadatak2/projektiranje-autonomnih-sustava/zadatak2/build/zadatak2/build/lib/zadatak2
+[0.648s] running install
+[0.648s] running install_lib
+[0.649s] creating /home/ivan/Documents/PAS/zadatak2/projektiranje-autonomnih-sustava/zadatak2/install/zadatak2/lib/python3.10/site-packages/zadatak2
+[0.649s] copying /home/ivan/Documents/PAS/zadatak2/projektiranje-autonomnih-sustava/zadatak2/build/zadatak2/build/lib/zadatak2/path_follower_node.py -> /home/ivan/Documents/PAS/zadatak2/projektiranje-autonomnih-sustava/zadatak2/install/zadatak2/lib/python3.10/site-packages/zadatak2
+[0.649s] copying /home/ivan/Documents/PAS/zadatak2/projektiranje-autonomnih-sustava/zadatak2/build/zadatak2/build/lib/zadatak2/d_star_path_planner.py -> /home/ivan/Documents/PAS/zadatak2/projektiranje-autonomnih-sustava/zadatak2/install/zadatak2/lib/python3.10/site-packages/zadatak2
+[0.649s] copying /home/ivan/Documents/PAS/zadatak2/projektiranje-autonomnih-sustava/zadatak2/build/zadatak2/build/lib/zadatak2/__init__.py -> /home/ivan/Documents/PAS/zadatak2/projektiranje-autonomnih-sustava/zadatak2/install/zadatak2/lib/python3.10/site-packages/zadatak2
+[0.649s] copying /home/ivan/Documents/PAS/zadatak2/projektiranje-autonomnih-sustava/zadatak2/build/zadatak2/build/lib/zadatak2/goal_navigation_node.py -> /home/ivan/Documents/PAS/zadatak2/projektiranje-autonomnih-sustava/zadatak2/install/zadatak2/lib/python3.10/site-packages/zadatak2
+[0.649s] copying /home/ivan/Documents/PAS/zadatak2/projektiranje-autonomnih-sustava/zadatak2/build/zadatak2/build/lib/zadatak2/nav2_adapter.py -> /home/ivan/Documents/PAS/zadatak2/projektiranje-autonomnih-sustava/zadatak2/install/zadatak2/lib/python3.10/site-packages/zadatak2
+[0.649s] copying /home/ivan/Documents/PAS/zadatak2/projektiranje-autonomnih-sustava/zadatak2/build/zadatak2/build/lib/zadatak2/path_planning_node.py -> /home/ivan/Documents/PAS/zadatak2/projektiranje-autonomnih-sustava/zadatak2/install/zadatak2/lib/python3.10/site-packages/zadatak2
+[0.649s] copying /home/ivan/Documents/PAS/zadatak2/projektiranje-autonomnih-sustava/zadatak2/build/zadatak2/build/lib/zadatak2/navigation_complete_nav2.launch.py -> /home/ivan/Documents/PAS/zadatak2/projektiranje-autonomnih-sustava/zadatak2/install/zadatak2/lib/python3.10/site-packages/zadatak2
+[0.649s] copying /home/ivan/Documents/PAS/zadatak2/projektiranje-autonomnih-sustava/zadatak2/build/zadatak2/build/lib/zadatak2/map_republisher.py -> /home/ivan/Documents/PAS/zadatak2/projektiranje-autonomnih-sustava/zadatak2/install/zadatak2/lib/python3.10/site-packages/zadatak2
+[0.649s] byte-compiling /home/ivan/Documents/PAS/zadatak2/projektiranje-autonomnih-sustava/zadatak2/install/zadatak2/lib/python3.10/site-packages/zadatak2/path_follower_node.py to path_follower_node.cpython-310.pyc
+[0.650s] byte-compiling /home/ivan/Documents/PAS/zadatak2/projektiranje-autonomnih-sustava/zadatak2/install/zadatak2/lib/python3.10/site-packages/zadatak2/d_star_path_planner.py to d_star_path_planner.cpython-310.pyc
+[0.653s] byte-compiling /home/ivan/Documents/PAS/zadatak2/projektiranje-autonomnih-sustava/zadatak2/install/zadatak2/lib/python3.10/site-packages/zadatak2/__init__.py to __init__.cpython-310.pyc
+[0.653s] byte-compiling /home/ivan/Documents/PAS/zadatak2/projektiranje-autonomnih-sustava/zadatak2/install/zadatak2/lib/python3.10/site-packages/zadatak2/goal_navigation_node.py to goal_navigation_node.cpython-310.pyc
+[0.653s] byte-compiling /home/ivan/Documents/PAS/zadatak2/projektiranje-autonomnih-sustava/zadatak2/install/zadatak2/lib/python3.10/site-packages/zadatak2/nav2_adapter.py to nav2_adapter.cpython-310.pyc
+[0.654s] byte-compiling /home/ivan/Documents/PAS/zadatak2/projektiranje-autonomnih-sustava/zadatak2/install/zadatak2/lib/python3.10/site-packages/zadatak2/path_planning_node.py to path_planning_node.cpython-310.pyc
+[0.654s] byte-compiling /home/ivan/Documents/PAS/zadatak2/projektiranje-autonomnih-sustava/zadatak2/install/zadatak2/lib/python3.10/site-packages/zadatak2/navigation_complete_nav2.launch.py to navigation_complete_nav2.launch.cpython-310.pyc
+[0.654s] byte-compiling /home/ivan/Documents/PAS/zadatak2/projektiranje-autonomnih-sustava/zadatak2/install/zadatak2/lib/python3.10/site-packages/zadatak2/map_republisher.py to map_republisher.cpython-310.pyc
+[0.654s] running install_data
+[0.654s] creating /home/ivan/Documents/PAS/zadatak2/projektiranje-autonomnih-sustava/zadatak2/install/zadatak2/share/ament_index
+[0.654s] creating /home/ivan/Documents/PAS/zadatak2/projektiranje-autonomnih-sustava/zadatak2/install/zadatak2/share/ament_index/resource_index
+[0.654s] creating /home/ivan/Documents/PAS/zadatak2/projektiranje-autonomnih-sustava/zadatak2/install/zadatak2/share/ament_index/resource_index/packages
+[0.654s] copying resource/zadatak2 -> /home/ivan/Documents/PAS/zadatak2/projektiranje-autonomnih-sustava/zadatak2/install/zadatak2/share/ament_index/resource_index/packages
+[0.654s] copying package.xml -> /home/ivan/Documents/PAS/zadatak2/projektiranje-autonomnih-sustava/zadatak2/install/zadatak2/share/zadatak2
+[0.654s] creating /home/ivan/Documents/PAS/zadatak2/projektiranje-autonomnih-sustava/zadatak2/install/zadatak2/share/zadatak2/launch
+[0.654s] copying launch/navigation_complete.launch.py -> /home/ivan/Documents/PAS/zadatak2/projektiranje-autonomnih-sustava/zadatak2/install/zadatak2/share/zadatak2/launch
+[0.654s] copying launch/stage_launch.py -> /home/ivan/Documents/PAS/zadatak2/projektiranje-autonomnih-sustava/zadatak2/install/zadatak2/share/zadatak2/launch
+[0.654s] copying launch/mapping_complete_launch.py -> /home/ivan/Documents/PAS/zadatak2/projektiranje-autonomnih-sustava/zadatak2/install/zadatak2/share/zadatak2/launch
+[0.654s] copying launch/localization_launch.py -> /home/ivan/Documents/PAS/zadatak2/projektiranje-autonomnih-sustava/zadatak2/install/zadatak2/share/zadatak2/launch
+[0.655s] copying launch/online_async_launch.py -> /home/ivan/Documents/PAS/zadatak2/projektiranje-autonomnih-sustava/zadatak2/install/zadatak2/share/zadatak2/launch
+[0.655s] copying launch/localization_complete_launch.py -> /home/ivan/Documents/PAS/zadatak2/projektiranje-autonomnih-sustava/zadatak2/install/zadatak2/share/zadatak2/launch
+[0.655s] copying launch/mapping_launch.py -> /home/ivan/Documents/PAS/zadatak2/projektiranje-autonomnih-sustava/zadatak2/install/zadatak2/share/zadatak2/launch
+[0.655s] copying launch/navigation_complete_nav2.launch.py -> /home/ivan/Documents/PAS/zadatak2/projektiranje-autonomnih-sustava/zadatak2/install/zadatak2/share/zadatak2/launch
+[0.655s] copying launch/navigation_launch.py -> /home/ivan/Documents/PAS/zadatak2/projektiranje-autonomnih-sustava/zadatak2/install/zadatak2/share/zadatak2/launch
+[0.655s] copying launch/d_star_path_planner.launch.py -> /home/ivan/Documents/PAS/zadatak2/projektiranje-autonomnih-sustava/zadatak2/install/zadatak2/share/zadatak2/launch
+[0.655s] creating /home/ivan/Documents/PAS/zadatak2/projektiranje-autonomnih-sustava/zadatak2/install/zadatak2/share/zadatak2/config
+[0.655s] copying config/mapper_params_online_async.yaml -> /home/ivan/Documents/PAS/zadatak2/projektiranje-autonomnih-sustava/zadatak2/install/zadatak2/share/zadatak2/config
+[0.655s] copying config/nav2_params.yaml -> /home/ivan/Documents/PAS/zadatak2/projektiranje-autonomnih-sustava/zadatak2/install/zadatak2/share/zadatak2/config
+[0.655s] copying config/a_star_path_planner_examples.yaml -> /home/ivan/Documents/PAS/zadatak2/projektiranje-autonomnih-sustava/zadatak2/install/zadatak2/share/zadatak2/config
+[0.655s] copying config/rviz_navigation.rviz -> /home/ivan/Documents/PAS/zadatak2/projektiranje-autonomnih-sustava/zadatak2/install/zadatak2/share/zadatak2/config
+[0.655s] copying config/rviz_config.rviz -> /home/ivan/Documents/PAS/zadatak2/projektiranje-autonomnih-sustava/zadatak2/install/zadatak2/share/zadatak2/config
+[0.655s] creating /home/ivan/Documents/PAS/zadatak2/projektiranje-autonomnih-sustava/zadatak2/install/zadatak2/share/zadatak2/world
+[0.655s] copying world/map_01.world -> /home/ivan/Documents/PAS/zadatak2/projektiranje-autonomnih-sustava/zadatak2/install/zadatak2/share/zadatak2/world
+[0.655s] copying world/map_01.png -> /home/ivan/Documents/PAS/zadatak2/projektiranje-autonomnih-sustava/zadatak2/install/zadatak2/share/zadatak2/world
+[0.655s] creating /home/ivan/Documents/PAS/zadatak2/projektiranje-autonomnih-sustava/zadatak2/install/zadatak2/share/zadatak2/world/include
+[0.655s] copying world/include/pioneer2dx.inc -> /home/ivan/Documents/PAS/zadatak2/projektiranje-autonomnih-sustava/zadatak2/install/zadatak2/share/zadatak2/world/include
+[0.655s] copying world/include/robots.inc -> /home/ivan/Documents/PAS/zadatak2/projektiranje-autonomnih-sustava/zadatak2/install/zadatak2/share/zadatak2/world/include
+[0.655s] creating /home/ivan/Documents/PAS/zadatak2/projektiranje-autonomnih-sustava/zadatak2/install/zadatak2/share/zadatak2/mapped_maps
+[0.655s] creating /home/ivan/Documents/PAS/zadatak2/projektiranje-autonomnih-sustava/zadatak2/install/zadatak2/share/zadatak2/mapped_maps/map_01
+[0.655s] copying mapped_maps/map_01/map_01.yaml -> /home/ivan/Documents/PAS/zadatak2/projektiranje-autonomnih-sustava/zadatak2/install/zadatak2/share/zadatak2/mapped_maps/map_01
+[0.655s] copying mapped_maps/map_01/map_01.pgm -> /home/ivan/Documents/PAS/zadatak2/projektiranje-autonomnih-sustava/zadatak2/install/zadatak2/share/zadatak2/mapped_maps/map_01
+[0.655s] running install_egg_info
+[0.656s] Copying ../../build/zadatak2/zadatak2.egg-info to /home/ivan/Documents/PAS/zadatak2/projektiranje-autonomnih-sustava/zadatak2/install/zadatak2/lib/python3.10/site-packages/zadatak2-0.0.0-py3.10.egg-info
+[0.657s] running install_scripts
+[0.670s] Installing d_star_path_planner script to /home/ivan/Documents/PAS/zadatak2/projektiranje-autonomnih-sustava/zadatak2/install/zadatak2/lib/zadatak2
+[0.670s] Installing goal_navigation_node script to /home/ivan/Documents/PAS/zadatak2/projektiranje-autonomnih-sustava/zadatak2/install/zadatak2/lib/zadatak2
+[0.670s] Installing map_republisher script to /home/ivan/Documents/PAS/zadatak2/projektiranje-autonomnih-sustava/zadatak2/install/zadatak2/lib/zadatak2
+[0.670s] Installing nav2_adapter script to /home/ivan/Documents/PAS/zadatak2/projektiranje-autonomnih-sustava/zadatak2/install/zadatak2/lib/zadatak2
+[0.670s] Installing path_follower script to /home/ivan/Documents/PAS/zadatak2/projektiranje-autonomnih-sustava/zadatak2/install/zadatak2/lib/zadatak2
+[0.670s] Installing path_planning_node script to /home/ivan/Documents/PAS/zadatak2/projektiranje-autonomnih-sustava/zadatak2/install/zadatak2/lib/zadatak2
+[0.670s] writing list of installed files to '/home/ivan/Documents/PAS/zadatak2/projektiranje-autonomnih-sustava/zadatak2/build/zadatak2/install.log'
+[0.685s] Invoked command in '/home/ivan/Documents/PAS/zadatak2/projektiranje-autonomnih-sustava/zadatak2/src/zadatak2' returned '0': PYTHONPATH=/home/ivan/Documents/PAS/zadatak2/projektiranje-autonomnih-sustava/zadatak2/build/zadatak2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ivan/Documents/PAS/zadatak2/projektiranje-autonomnih-sustava/zadatak2/install/zadatak2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/zadatak2 build --build-base /home/ivan/Documents/PAS/zadatak2/projektiranje-autonomnih-sustava/zadatak2/build/zadatak2/build install --record /home/ivan/Documents/PAS/zadatak2/projektiranje-autonomnih-sustava/zadatak2/build/zadatak2/install.log --single-version-externally-managed install_data

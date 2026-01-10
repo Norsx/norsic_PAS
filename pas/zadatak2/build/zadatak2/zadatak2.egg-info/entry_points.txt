@@ -1,0 +1,8 @@
+[console_scripts]
+d_star_path_planner = zadatak2.d_star_path_planner:main
+goal_navigation_node = zadatak2.goal_navigation_node:main
+map_republisher = zadatak2.map_republisher:main
+nav2_adapter = zadatak2.nav2_adapter:main
+path_follower = zadatak2.path_follower_node:main
+path_planning_node = zadatak2.path_planning_node:main
+

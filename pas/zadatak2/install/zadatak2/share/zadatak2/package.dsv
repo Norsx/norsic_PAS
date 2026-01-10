@@ -1,0 +1,6 @@
+source;share/zadatak2/hook/pythonpath.ps1
+source;share/zadatak2/hook/pythonpath.dsv
+source;share/zadatak2/hook/pythonpath.sh
+source;share/zadatak2/hook/ament_prefix_path.ps1
+source;share/zadatak2/hook/ament_prefix_path.dsv
+source;share/zadatak2/hook/ament_prefix_path.sh
