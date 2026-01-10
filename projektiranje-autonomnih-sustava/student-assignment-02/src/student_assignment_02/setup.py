@@ -68,12 +68,11 @@ setup(
     zip_safe=True,
     maintainer='Norsx',
     maintainer_email='ivan.norsic01@gmail.com',
-    description='ROS2 Python package for autonomous system mapping and path planning using A* and D* algorithms',
+    description='ROS2 Python package for autonomous system mapping and path planning using D* algorithm',
     license='Apache-2.0',
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'a_star_path_planner = student_assignment_02.a_star_path_planner:main',
             'd_star_path_planner = student_assignment_02.d_star_path_planner:main',
             'map_republisher = student_assignment_02.map_republisher:main',
             'path_planning_node = student_assignment_02.path_planning_node:main',
