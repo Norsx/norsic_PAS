@@ -7,6 +7,12 @@ Vizualizira pretraživanje prostora i planiranu putanju u RViz-u
 Podrživavas dinamiki goal pose iz RViza (2D Goal Pose)
 Koristi base_link za početnu točku (pozicija robota)
 Dodao: Inflation buffer od 0.2m oko zidova za sigurnu putanju
+
+Vizualizacija:
+- Explored cells: Narančasta
+- Frontier: Žuta
+- Inflation buffer: Crvena
+- Path: Plava (iz RViz Path display)
 """
 
 import rclpy
@@ -127,6 +133,7 @@ class DStarPathPlanner(Node):
         self.get_logger().info(f'Inflation distance: {self.inflation_distance_m}m (0.2m = 20cm)')
         self.get_logger().info('Slusa na /goal_pose za dinamicki goal (RViz 2D Goal Pose)')
         self.get_logger().info('Koristi base_link za početnu točku (poziciju robota)')
+        self.get_logger().info('Vizualizacija boja: Narančasta (explored), Žuta (frontier), Crvena (inflation)')
     
     def get_robot_position(self) -> Tuple[float, float]:
         """
@@ -202,7 +209,7 @@ class DStarPathPlanner(Node):
     def create_inflated_map(self) -> List[int]:
         """
         Kreiraj inflirane mape - dodaj buffer oko prepreka
-        Algoritam: Distance transform - označi sve stanice blizu prepreka
+        Algoritam: Distance transform - označi sve stanice blizu prepraka
         """
         if not self.map_metadata or not self.map_data:
             return self.map_data
@@ -530,7 +537,7 @@ class DStarPathPlanner(Node):
                     while current != goal:
                         path.append(current)
                         
-                        # Pronađi sljedећi čvor prema najmanjoj g vrijednosti
+                        # Pronađi sljedećni čvor prema najmanjoj g vrijednosti
                         best_neighbor = None
                         best_cost = float('inf')
                         
@@ -590,9 +597,10 @@ class DStarPathPlanner(Node):
     ):
         """
         Vizualiziraj pretraživanje u RViz-u
+        Boje: Narančasta (explored), Žuta (frontier)
         """
         
-        # Vizualizacija istraživanih stanica
+        # Vizualizacija istraživanih stanica - NARANČASTA
         explored_markers = MarkerArray()
         
         for idx, (gx, gy) in enumerate(explored):
@@ -617,17 +625,17 @@ class DStarPathPlanner(Node):
             marker.scale.y = self.map_metadata.resolution * 0.8
             marker.scale.z = self.map_metadata.resolution * 0.8
             
-            # D* koristi brojačé boje (zelena)
-            marker.color.r = 0.2
-            marker.color.g = 0.8
-            marker.color.b = 0.2
-            marker.color.a = 0.3
+            # NARANČASTA boja za explored cells
+            marker.color.r = 1.0
+            marker.color.g = 0.6
+            marker.color.b = 0.0
+            marker.color.a = 0.4
             
             explored_markers.markers.append(marker)
         
         self.visualization_publisher.publish(explored_markers)
         
-        # Vizualizacija čelne fronte
+        # Vizualizacija čelne fronte - ŽUTA
         frontier_markers = MarkerArray()
         
         for idx, (gx, gy) in enumerate(frontier[-1000:]):  # Samo zadnjih 1000
@@ -649,11 +657,11 @@ class DStarPathPlanner(Node):
             marker.scale.y = self.map_metadata.resolution * 0.6
             marker.scale.z = self.map_metadata.resolution * 0.6
             
-            # D* čelna fronta koristi cijansku boju
-            marker.color.r = 0.0
+            # ŽUTA boja za frontier
+            marker.color.r = 1.0
             marker.color.g = 1.0
-            marker.color.b = 1.0
-            marker.color.a = 0.5
+            marker.color.b = 0.0
+            marker.color.a = 0.6
             
             frontier_markers.markers.append(marker)
         
@@ -661,7 +669,7 @@ class DStarPathPlanner(Node):
     
     def visualize_inflation_buffer(self):
         """
-        Vizualiziraj inflation buffer zone
+        Vizualiziraj inflation buffer zone - CRVENA
         """
         if not self.inflated_map or not self.map_metadata:
             return
@@ -696,11 +704,11 @@ class DStarPathPlanner(Node):
                     marker.scale.y = res
                     marker.scale.z = 0.01
                     
-                    # Razlika boja ovisno o distanci do prepreke (purpurna za D*)
+                    # CRVENA boja za inflation buffer
                     marker.color.r = 1.0
                     marker.color.g = 0.0
-                    marker.color.b = 1.0
-                    marker.color.a = 0.2
+                    marker.color.b = 0.0
+                    marker.color.a = 0.3
                     
                     buffer_markers.markers.append(marker)
                     marker_id += 1
