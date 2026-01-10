@@ -4,6 +4,3 @@ source;share/student_assignment_02/hook/pythonpath.sh
 source;share/student_assignment_02/hook/ament_prefix_path.ps1
 source;share/student_assignment_02/hook/ament_prefix_path.dsv
 source;share/student_assignment_02/hook/ament_prefix_path.sh
-source;../../build/student_assignment_02/share/student_assignment_02/hook/pythonpath_develop.ps1
-source;../../build/student_assignment_02/share/student_assignment_02/hook/pythonpath_develop.dsv
-source;../../build/student_assignment_02/share/student_assignment_02/hook/pythonpath_develop.sh

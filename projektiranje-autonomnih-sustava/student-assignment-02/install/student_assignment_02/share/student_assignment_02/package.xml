@@ -1,1 +1,36 @@
-/home/ivan/Documents/PAS/zadatak2/projektiranje-autonomnih-sustava/student-assignment-02/build/student_assignment_02/package.xml
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>student_assignment_02</name>
+  <version>0.0.0</version>
+  <description>ROS2 Python package for autonomous system mapping and path planning using Stage simulator with A* and D* algorithms</description>
+  <maintainer email="ivan.norsic01@gmail.com">Norsx</maintainer>
+  <license>Apache-2.0</license>
+
+  <buildtool_depend>ament_python</buildtool_depend>
+
+  <depend>rclpy</depend>
+  <depend>sensor_msgs</depend>
+  <depend>geometry_msgs</depend>
+  <depend>nav_msgs</depend>
+  <depend>std_msgs</depend>
+  <depend>visualization_msgs</depend>
+  <depend>tf2_ros</depend>
+  <depend>tf2_geometry_msgs</depend>
+  <depend>tf2</depend>
+  <depend>stage_ros2</depend>
+  <depend>slam_toolbox</depend>
+  <depend>robot_state_publisher</depend>
+  <depend>rviz2</depend>
+
+  <exec_depend>python3-numpy</exec_depend>
+  <build_depend>python3-numpy</build_depend>
+
+  <test_depend>ament_lint_auto</test_depend>
+  <test_depend>ament_lint_common</test_depend>
+  <test_depend>ament_cmake_pycodestyle</test_depend>
+
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>

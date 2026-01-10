@@ -1,0 +1,82 @@
+running develop
+Removing /home/ivan/Documents/PAS/zadatak2/projektiranje-autonomnih-sustava/student-assignment-02/install/student_assignment_02/lib/python3.10/site-packages/student-assignment-02.egg-link (link to .)
+running egg_info
+writing ../../build/student_assignment_02/student_assignment_02.egg-info/PKG-INFO
+writing dependency_links to ../../build/student_assignment_02/student_assignment_02.egg-info/dependency_links.txt
+writing entry points to ../../build/student_assignment_02/student_assignment_02.egg-info/entry_points.txt
+writing requirements to ../../build/student_assignment_02/student_assignment_02.egg-info/requires.txt
+writing top-level names to ../../build/student_assignment_02/student_assignment_02.egg-info/top_level.txt
+reading manifest file '../../build/student_assignment_02/student_assignment_02.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/student_assignment_02/student_assignment_02.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/ivan/Documents/PAS/zadatak2/projektiranje-autonomnih-sustava/student-assignment-02/build/student_assignment_02/build
+creating /home/ivan/Documents/PAS/zadatak2/projektiranje-autonomnih-sustava/student-assignment-02/build/student_assignment_02/build/lib
+creating /home/ivan/Documents/PAS/zadatak2/projektiranje-autonomnih-sustava/student-assignment-02/build/student_assignment_02/build/lib/student_assignment_02
+copying student_assignment_02/path_follower_node.py -> /home/ivan/Documents/PAS/zadatak2/projektiranje-autonomnih-sustava/student-assignment-02/build/student_assignment_02/build/lib/student_assignment_02
+copying student_assignment_02/d_star_path_planner.py -> /home/ivan/Documents/PAS/zadatak2/projektiranje-autonomnih-sustava/student-assignment-02/build/student_assignment_02/build/lib/student_assignment_02
+copying student_assignment_02/__init__.py -> /home/ivan/Documents/PAS/zadatak2/projektiranje-autonomnih-sustava/student-assignment-02/build/student_assignment_02/build/lib/student_assignment_02
+copying student_assignment_02/goal_navigation_node.py -> /home/ivan/Documents/PAS/zadatak2/projektiranje-autonomnih-sustava/student-assignment-02/build/student_assignment_02/build/lib/student_assignment_02
+copying student_assignment_02/nav2_adapter.py -> /home/ivan/Documents/PAS/zadatak2/projektiranje-autonomnih-sustava/student-assignment-02/build/student_assignment_02/build/lib/student_assignment_02
+copying student_assignment_02/path_planning_node.py -> /home/ivan/Documents/PAS/zadatak2/projektiranje-autonomnih-sustava/student-assignment-02/build/student_assignment_02/build/lib/student_assignment_02
+copying student_assignment_02/navigation_complete_nav2.launch.py -> /home/ivan/Documents/PAS/zadatak2/projektiranje-autonomnih-sustava/student-assignment-02/build/student_assignment_02/build/lib/student_assignment_02
+copying student_assignment_02/a_star_path_planner.py -> /home/ivan/Documents/PAS/zadatak2/projektiranje-autonomnih-sustava/student-assignment-02/build/student_assignment_02/build/lib/student_assignment_02
+copying student_assignment_02/map_republisher.py -> /home/ivan/Documents/PAS/zadatak2/projektiranje-autonomnih-sustava/student-assignment-02/build/student_assignment_02/build/lib/student_assignment_02
+running install
+running install_lib
+creating /home/ivan/Documents/PAS/zadatak2/projektiranje-autonomnih-sustava/student-assignment-02/install/student_assignment_02/lib/python3.10/site-packages/student_assignment_02
+copying /home/ivan/Documents/PAS/zadatak2/projektiranje-autonomnih-sustava/student-assignment-02/build/student_assignment_02/build/lib/student_assignment_02/path_follower_node.py -> /home/ivan/Documents/PAS/zadatak2/projektiranje-autonomnih-sustava/student-assignment-02/install/student_assignment_02/lib/python3.10/site-packages/student_assignment_02
+copying /home/ivan/Documents/PAS/zadatak2/projektiranje-autonomnih-sustava/student-assignment-02/build/student_assignment_02/build/lib/student_assignment_02/d_star_path_planner.py -> /home/ivan/Documents/PAS/zadatak2/projektiranje-autonomnih-sustava/student-assignment-02/install/student_assignment_02/lib/python3.10/site-packages/student_assignment_02
+copying /home/ivan/Documents/PAS/zadatak2/projektiranje-autonomnih-sustava/student-assignment-02/build/student_assignment_02/build/lib/student_assignment_02/__init__.py -> /home/ivan/Documents/PAS/zadatak2/projektiranje-autonomnih-sustava/student-assignment-02/install/student_assignment_02/lib/python3.10/site-packages/student_assignment_02
+copying /home/ivan/Documents/PAS/zadatak2/projektiranje-autonomnih-sustava/student-assignment-02/build/student_assignment_02/build/lib/student_assignment_02/goal_navigation_node.py -> /home/ivan/Documents/PAS/zadatak2/projektiranje-autonomnih-sustava/student-assignment-02/install/student_assignment_02/lib/python3.10/site-packages/student_assignment_02
+copying /home/ivan/Documents/PAS/zadatak2/projektiranje-autonomnih-sustava/student-assignment-02/build/student_assignment_02/build/lib/student_assignment_02/nav2_adapter.py -> /home/ivan/Documents/PAS/zadatak2/projektiranje-autonomnih-sustava/student-assignment-02/install/student_assignment_02/lib/python3.10/site-packages/student_assignment_02
+copying /home/ivan/Documents/PAS/zadatak2/projektiranje-autonomnih-sustava/student-assignment-02/build/student_assignment_02/build/lib/student_assignment_02/path_planning_node.py -> /home/ivan/Documents/PAS/zadatak2/projektiranje-autonomnih-sustava/student-assignment-02/install/student_assignment_02/lib/python3.10/site-packages/student_assignment_02
+copying /home/ivan/Documents/PAS/zadatak2/projektiranje-autonomnih-sustava/student-assignment-02/build/student_assignment_02/build/lib/student_assignment_02/navigation_complete_nav2.launch.py -> /home/ivan/Documents/PAS/zadatak2/projektiranje-autonomnih-sustava/student-assignment-02/install/student_assignment_02/lib/python3.10/site-packages/student_assignment_02
+copying /home/ivan/Documents/PAS/zadatak2/projektiranje-autonomnih-sustava/student-assignment-02/build/student_assignment_02/build/lib/student_assignment_02/a_star_path_planner.py -> /home/ivan/Documents/PAS/zadatak2/projektiranje-autonomnih-sustava/student-assignment-02/install/student_assignment_02/lib/python3.10/site-packages/student_assignment_02
+copying /home/ivan/Documents/PAS/zadatak2/projektiranje-autonomnih-sustava/student-assignment-02/build/student_assignment_02/build/lib/student_assignment_02/map_republisher.py -> /home/ivan/Documents/PAS/zadatak2/projektiranje-autonomnih-sustava/student-assignment-02/install/student_assignment_02/lib/python3.10/site-packages/student_assignment_02
+byte-compiling /home/ivan/Documents/PAS/zadatak2/projektiranje-autonomnih-sustava/student-assignment-02/install/student_assignment_02/lib/python3.10/site-packages/student_assignment_02/path_follower_node.py to path_follower_node.cpython-310.pyc
+byte-compiling /home/ivan/Documents/PAS/zadatak2/projektiranje-autonomnih-sustava/student-assignment-02/install/student_assignment_02/lib/python3.10/site-packages/student_assignment_02/d_star_path_planner.py to d_star_path_planner.cpython-310.pyc
+byte-compiling /home/ivan/Documents/PAS/zadatak2/projektiranje-autonomnih-sustava/student-assignment-02/install/student_assignment_02/lib/python3.10/site-packages/student_assignment_02/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/ivan/Documents/PAS/zadatak2/projektiranje-autonomnih-sustava/student-assignment-02/install/student_assignment_02/lib/python3.10/site-packages/student_assignment_02/goal_navigation_node.py to goal_navigation_node.cpython-310.pyc
+byte-compiling /home/ivan/Documents/PAS/zadatak2/projektiranje-autonomnih-sustava/student-assignment-02/install/student_assignment_02/lib/python3.10/site-packages/student_assignment_02/nav2_adapter.py to nav2_adapter.cpython-310.pyc
+byte-compiling /home/ivan/Documents/PAS/zadatak2/projektiranje-autonomnih-sustava/student-assignment-02/install/student_assignment_02/lib/python3.10/site-packages/student_assignment_02/path_planning_node.py to path_planning_node.cpython-310.pyc
+byte-compiling /home/ivan/Documents/PAS/zadatak2/projektiranje-autonomnih-sustava/student-assignment-02/install/student_assignment_02/lib/python3.10/site-packages/student_assignment_02/navigation_complete_nav2.launch.py to navigation_complete_nav2.launch.cpython-310.pyc
+byte-compiling /home/ivan/Documents/PAS/zadatak2/projektiranje-autonomnih-sustava/student-assignment-02/install/student_assignment_02/lib/python3.10/site-packages/student_assignment_02/a_star_path_planner.py to a_star_path_planner.cpython-310.pyc
+byte-compiling /home/ivan/Documents/PAS/zadatak2/projektiranje-autonomnih-sustava/student-assignment-02/install/student_assignment_02/lib/python3.10/site-packages/student_assignment_02/map_republisher.py to map_republisher.cpython-310.pyc
+running install_data
+copying resource/student_assignment_02 -> /home/ivan/Documents/PAS/zadatak2/projektiranje-autonomnih-sustava/student-assignment-02/install/student_assignment_02/share/ament_index/resource_index/packages
+copying package.xml -> /home/ivan/Documents/PAS/zadatak2/projektiranje-autonomnih-sustava/student-assignment-02/install/student_assignment_02/share/student_assignment_02
+copying launch/navigation_complete.launch.py -> /home/ivan/Documents/PAS/zadatak2/projektiranje-autonomnih-sustava/student-assignment-02/install/student_assignment_02/share/student_assignment_02/launch
+copying launch/d_star_path_planner.py -> /home/ivan/Documents/PAS/zadatak2/projektiranje-autonomnih-sustava/student-assignment-02/install/student_assignment_02/share/student_assignment_02/launch
+copying launch/stage_launch.py -> /home/ivan/Documents/PAS/zadatak2/projektiranje-autonomnih-sustava/student-assignment-02/install/student_assignment_02/share/student_assignment_02/launch
+copying launch/mapping_complete_launch.py -> /home/ivan/Documents/PAS/zadatak2/projektiranje-autonomnih-sustava/student-assignment-02/install/student_assignment_02/share/student_assignment_02/launch
+copying launch/localization_launch.py -> /home/ivan/Documents/PAS/zadatak2/projektiranje-autonomnih-sustava/student-assignment-02/install/student_assignment_02/share/student_assignment_02/launch
+copying launch/online_async_launch.py -> /home/ivan/Documents/PAS/zadatak2/projektiranje-autonomnih-sustava/student-assignment-02/install/student_assignment_02/share/student_assignment_02/launch
+copying launch/localization_complete_launch.py -> /home/ivan/Documents/PAS/zadatak2/projektiranje-autonomnih-sustava/student-assignment-02/install/student_assignment_02/share/student_assignment_02/launch
+copying launch/mapping_launch.py -> /home/ivan/Documents/PAS/zadatak2/projektiranje-autonomnih-sustava/student-assignment-02/install/student_assignment_02/share/student_assignment_02/launch
+copying launch/a_star_path_planner.launch.py -> /home/ivan/Documents/PAS/zadatak2/projektiranje-autonomnih-sustava/student-assignment-02/install/student_assignment_02/share/student_assignment_02/launch
+copying launch/navigation_complete_nav2.launch.py -> /home/ivan/Documents/PAS/zadatak2/projektiranje-autonomnih-sustava/student-assignment-02/install/student_assignment_02/share/student_assignment_02/launch
+copying launch/navigation_launch.py -> /home/ivan/Documents/PAS/zadatak2/projektiranje-autonomnih-sustava/student-assignment-02/install/student_assignment_02/share/student_assignment_02/launch
+copying config/mapper_params_online_async.yaml -> /home/ivan/Documents/PAS/zadatak2/projektiranje-autonomnih-sustava/student-assignment-02/install/student_assignment_02/share/student_assignment_02/config
+copying config/nav2_params.yaml -> /home/ivan/Documents/PAS/zadatak2/projektiranje-autonomnih-sustava/student-assignment-02/install/student_assignment_02/share/student_assignment_02/config
+copying config/a_star_path_planner_examples.yaml -> /home/ivan/Documents/PAS/zadatak2/projektiranje-autonomnih-sustava/student-assignment-02/install/student_assignment_02/share/student_assignment_02/config
+copying config/rviz_navigation.rviz -> /home/ivan/Documents/PAS/zadatak2/projektiranje-autonomnih-sustava/student-assignment-02/install/student_assignment_02/share/student_assignment_02/config
+copying config/rviz_config.rviz -> /home/ivan/Documents/PAS/zadatak2/projektiranje-autonomnih-sustava/student-assignment-02/install/student_assignment_02/share/student_assignment_02/config
+copying world/map_01.world -> /home/ivan/Documents/PAS/zadatak2/projektiranje-autonomnih-sustava/student-assignment-02/install/student_assignment_02/share/student_assignment_02/world
+copying world/map_01.png -> /home/ivan/Documents/PAS/zadatak2/projektiranje-autonomnih-sustava/student-assignment-02/install/student_assignment_02/share/student_assignment_02/world
+copying world/include/pioneer2dx.inc -> /home/ivan/Documents/PAS/zadatak2/projektiranje-autonomnih-sustava/student-assignment-02/install/student_assignment_02/share/student_assignment_02/world/include
+copying world/include/robots.inc -> /home/ivan/Documents/PAS/zadatak2/projektiranje-autonomnih-sustava/student-assignment-02/install/student_assignment_02/share/student_assignment_02/world/include
+copying mapped_maps/map_01/map_01.yaml -> /home/ivan/Documents/PAS/zadatak2/projektiranje-autonomnih-sustava/student-assignment-02/install/student_assignment_02/share/student_assignment_02/mapped_maps/map_01
+copying mapped_maps/map_01/map_01.pgm -> /home/ivan/Documents/PAS/zadatak2/projektiranje-autonomnih-sustava/student-assignment-02/install/student_assignment_02/share/student_assignment_02/mapped_maps/map_01
+running install_egg_info
+Copying ../../build/student_assignment_02/student_assignment_02.egg-info to /home/ivan/Documents/PAS/zadatak2/projektiranje-autonomnih-sustava/student-assignment-02/install/student_assignment_02/lib/python3.10/site-packages/student_assignment_02-0.0.0-py3.10.egg-info
+running install_scripts
+Installing a_star_path_planner script to /home/ivan/Documents/PAS/zadatak2/projektiranje-autonomnih-sustava/student-assignment-02/install/student_assignment_02/lib/student_assignment_02
+Installing d_star_path_planner script to /home/ivan/Documents/PAS/zadatak2/projektiranje-autonomnih-sustava/student-assignment-02/install/student_assignment_02/lib/student_assignment_02
+Installing goal_navigation_node script to /home/ivan/Documents/PAS/zadatak2/projektiranje-autonomnih-sustava/student-assignment-02/install/student_assignment_02/lib/student_assignment_02
+Installing map_republisher script to /home/ivan/Documents/PAS/zadatak2/projektiranje-autonomnih-sustava/student-assignment-02/install/student_assignment_02/lib/student_assignment_02
+Installing nav2_adapter script to /home/ivan/Documents/PAS/zadatak2/projektiranje-autonomnih-sustava/student-assignment-02/install/student_assignment_02/lib/student_assignment_02
+Installing path_follower script to /home/ivan/Documents/PAS/zadatak2/projektiranje-autonomnih-sustava/student-assignment-02/install/student_assignment_02/lib/student_assignment_02
+Installing path_planning_node script to /home/ivan/Documents/PAS/zadatak2/projektiranje-autonomnih-sustava/student-assignment-02/install/student_assignment_02/lib/student_assignment_02
+writing list of installed files to '/home/ivan/Documents/PAS/zadatak2/projektiranje-autonomnih-sustava/student-assignment-02/build/student_assignment_02/install.log'
